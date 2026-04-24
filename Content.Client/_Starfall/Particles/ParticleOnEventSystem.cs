@@ -16,7 +16,7 @@ namespace Content.Client._Starfall.Particles;
 public sealed class ParticleOnEventSystem : EntitySystem
 {
     [Dependency] private readonly ParticleSystem _particles = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    // [Dependency] private readonly SharedTransformSystem _transform = default!; // open space-edit
     [Dependency] private readonly IPrototypeManager _proto = default!;
 
     // Track emitters spawned by OnThrown so we can stop them when the entity lands
