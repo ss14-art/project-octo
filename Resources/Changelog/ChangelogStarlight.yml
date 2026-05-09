@@ -1,13 +1,6 @@
 Entries:
 - author: Caws
   changes:
-  - message: (Saltern) Mail Tech lockers.
-    type: Add
-  id: 404457
-  time: '2026-04-21T11:18:06.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4220
-- author: Caws
-  changes:
   - message: (Saltern) Departmental communications consoles to their respective Heads' office.
     type: Add
   id: 404458
@@ -2799,4 +2792,11 @@ Entries:
   id: 404856
   time: '2026-05-09T10:23:05.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4296
+- author: SevenShades, teapoterror
+  changes:
+  - message: Cheese compatibility for MedTak.
+    type: Add
+  id: 404857
+  time: '2026-05-09T10:23:09.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4263
 Order: -1
