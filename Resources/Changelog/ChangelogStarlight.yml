@@ -1,11 +1,4 @@
 Entries:
-- author: Sparlight
-  changes:
-  - message: Removed hunger drawback from bruizine to avoid critters chugging the jug.
-    type: Tweak
-  id: 404504
-  time: '2026-04-22T08:44:07.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4225
 - author: wonderfulnewworld
   changes:
   - message: Added Head of Personnel's Backpack, Satchel, and Duffel. HoP can select them in loadout.
@@ -2799,4 +2792,11 @@ Entries:
   id: 404903
   time: '2026-05-12T07:56:03.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4420
+- author: DocMoth
+  changes:
+  - message: Added bunny ears to fashion vend for crew.
+    type: Tweak
+  id: 404904
+  time: '2026-05-12T08:26:34.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4412
 Order: -1
