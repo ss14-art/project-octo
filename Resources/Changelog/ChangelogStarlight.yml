@@ -1,13 +1,6 @@
 Entries:
 - author: Cujo
   changes:
-  - message: (Lagan) Halon (1), N2O (1), Storage (6), Air (2) canisters are now in atmos.
-    type: Add
-  id: 404607
-  time: '2026-04-26T07:03:47.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4235
-- author: Cujo
-  changes:
   - message: (Lagan) Atmos front desk is equipped to be an (supercool-ready) air refill, scrubber/space heater, and light-EVA handout station. Oh, and blast doors toward atmos main in case of plasmafire.
     type: Add
   id: 404608
@@ -2799,4 +2792,11 @@ Entries:
   id: 405006
   time: '2026-05-15T09:38:27.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4450
+- author: Caws
+  changes:
+  - message: 'New station beacons have been added for mapping: NTR, BSO, Nuclear Reactor, and Xenobiology.'
+    type: Add
+  id: 405007
+  time: '2026-05-15T11:20:49.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4446
 Order: -1
