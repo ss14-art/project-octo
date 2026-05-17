@@ -1,11 +1,4 @@
 Entries:
-- author: bynddark8
-  changes:
-  - message: (Elkridge) Fixed an unanchored air scrubber in brigmed.
-    type: Fix
-  id: 404637
-  time: '2026-04-26T07:03:51.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4241
 - author: NULLLINK TEAM
   changes:
   - message: Added cross-project or/and cross-server sync for any types of bans(role or server).
@@ -2799,4 +2792,11 @@ Entries:
   id: 405036
   time: '2026-05-17T09:37:48.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4465
+- author: CrazyPhantom
+  changes:
+  - message: Fixed an issue where bullets would not hit the Mothership Core.
+    type: Fix
+  id: 405037
+  time: '2026-05-17T15:07:35.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4471
 Order: -1
