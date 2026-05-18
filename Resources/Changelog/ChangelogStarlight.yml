@@ -1,13 +1,6 @@
 Entries:
 - author: wonderfulnewworld
   changes:
-  - message: Restored topicals in Medical belts back to what they were prior to Wizden's changes.
-    type: Tweak
-  id: 404714
-  time: '2026-04-29T05:33:09.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4286
-- author: wonderfulnewworld
-  changes:
   - message: The lockable body bag spawns in EMT belts instead of paramedics' bags again.
     type: Tweak
   id: 404715
@@ -2799,4 +2792,11 @@ Entries:
   id: 405113
   time: '2026-05-18T20:08:11.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4399
+- author: Rinary
+  changes:
+  - message: Maybe, fixed issue with bans sync. Now it should work properly.
+    type: Fix
+  id: 405114
+  time: '2026-05-18T20:41:32.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4478
 Order: -1
