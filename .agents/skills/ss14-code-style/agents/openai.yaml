@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Code Style"
+  short_description: "C# style, naming, datafields, and YAML"
+  default_prompt: "Use $ss14-code-style to keep SS14 code reviewable."

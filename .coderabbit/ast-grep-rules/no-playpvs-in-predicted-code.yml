@@ -1,0 +1,6 @@
+id: no-playpvs-in-predicted-code
+language: CSharp
+severity: hint
+message: "If this path is predicted/shared gameplay, use PlayPredicted instead of PlayPvs."
+rule:
+  pattern: $AUDIO.PlayPvs($$$ARGS)

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 PVS Networking"
+  short_description: "PVS visibility and session-specific networking"
+  default_prompt: "Use $ss14-pvs-networking when data visibility or PVS matters."

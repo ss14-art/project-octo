@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Events"
+  short_description: "Event patterns and naming for SS14 ECS"
+  default_prompt: "Use $ss14-events when defining or handling SS14 events."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Gameplay Feature"
+  short_description: "End-to-end gameplay feature workflow"
+  default_prompt: "Use $ss14-gameplay-feature to plan a complete SS14 gameplay feature."

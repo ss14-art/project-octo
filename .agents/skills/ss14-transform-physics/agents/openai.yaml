@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Transform Physics"
+  short_description: "Coordinates, grids, anchoring, and physics"
+  default_prompt: "Use $ss14-transform-physics for movement, grids, and collisions."

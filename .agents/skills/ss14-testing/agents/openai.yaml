@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Testing"
+  short_description: "Focused tests for content, YAML, and integration"
+  default_prompt: "Use $ss14-testing to choose SS14 validation commands."

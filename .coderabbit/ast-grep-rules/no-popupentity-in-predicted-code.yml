@@ -1,0 +1,6 @@
+id: no-popupentity-in-predicted-code
+language: CSharp
+severity: hint
+message: "If this path is predicted/shared gameplay, use PopupPredicted or PopupClient instead of PopupEntity."
+rule:
+  pattern: $POPUP.PopupEntity($$$ARGS)

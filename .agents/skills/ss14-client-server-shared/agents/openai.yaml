@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Client Server Shared"
+  short_description: "Client, server, and shared boundaries"
+  default_prompt: "Use $ss14-client-server-shared to place code in the right assembly."

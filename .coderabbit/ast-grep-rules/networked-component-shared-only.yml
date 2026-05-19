@@ -1,0 +1,9 @@
+id: networked-component-shared-only
+language: CSharp
+severity: warning
+message: "NetworkedComponent should be used only for shared components. Confirm this file is under Content.Shared."
+rule:
+  kind: attribute
+  has:
+    kind: identifier
+    regex: "^NetworkedComponent$"

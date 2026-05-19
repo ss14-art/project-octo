@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 UI XAML"
+  short_description: "XAML controls and styles guidance"
+  default_prompt: "Use $ss14-ui-xaml when building SS14 XAML UI."

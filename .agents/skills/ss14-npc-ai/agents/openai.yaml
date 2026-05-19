@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 NPC AI"
+  short_description: "NPC blackboard, tasks, and pathfinding"
+  default_prompt: "Use $ss14-npc-ai for NPC and AI behavior."

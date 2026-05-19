@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Naming Conventions"
+  short_description: "C#, YAML, FTL, and prototype naming"
+  default_prompt: "Use $ss14-naming-conventions to name SS14 code and content."

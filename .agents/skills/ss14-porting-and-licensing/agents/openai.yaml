@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Porting Licensing"
+  short_description: "Fork porting, attribution, and license checks"
+  default_prompt: "Use $ss14-porting-and-licensing before porting content into Shine."

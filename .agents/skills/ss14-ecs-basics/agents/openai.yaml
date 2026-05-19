@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 ECS Basics"
+  short_description: "ECS component and system patterns"
+  default_prompt: "Use $ss14-ecs-basics when adding components or systems."

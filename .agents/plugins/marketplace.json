@@ -1,0 +1,20 @@
+{
+  "name": "shine-project-local",
+  "interface": {
+    "displayName": "Shine Project Local"
+  },
+  "plugins": [
+    {
+      "name": "shine-project",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shine-project"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    }
+  ]
+}

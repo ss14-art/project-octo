@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 AI Workflow"
+  short_description: "Preflight and review workflow for agents"
+  default_prompt: "Use $ss14-ai-workflow to plan a safe SS14 change."

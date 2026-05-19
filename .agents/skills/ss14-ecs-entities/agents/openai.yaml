@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 ECS Entities"
+  short_description: "Entity generic APIs and entity references"
+  default_prompt: "Use $ss14-ecs-entities when passing or resolving entities."

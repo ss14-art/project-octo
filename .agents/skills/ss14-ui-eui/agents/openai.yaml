@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 UI EUI"
+  short_description: "EUI review and placement guidance"
+  default_prompt: "Use $ss14-ui-eui when building admin or external UI."

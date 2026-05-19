@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Sprite Rendering"
+  short_description: "Sprites, RSI, visualizers, overlays, shaders"
+  default_prompt: "Use $ss14-sprite-rendering for sprites, overlays, and visualizers."

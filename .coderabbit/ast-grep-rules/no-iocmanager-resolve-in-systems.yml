@@ -1,0 +1,6 @@
+id: no-iocmanager-resolve-in-systems
+language: CSharp
+severity: warning
+message: "Prefer [Dependency] fields in EntitySystems instead of IoCManager.Resolve in gameplay logic."
+rule:
+  pattern: IoCManager.Resolve<$TYPE>()

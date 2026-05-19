@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Networking Prediction"
+  short_description: "Prediction, Dirty, and component state rules"
+  default_prompt: "Use $ss14-networking-prediction for networked or interactive code."

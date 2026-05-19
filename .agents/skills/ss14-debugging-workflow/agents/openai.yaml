@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Debugging Workflow"
+  short_description: "VV, logs, tests, and fake lag debugging"
+  default_prompt: "Use $ss14-debugging-workflow to debug SS14 behavior."

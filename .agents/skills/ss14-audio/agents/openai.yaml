@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Audio"
+  short_description: "SoundSpecifier and predicted audio rules"
+  default_prompt: "Use $ss14-audio for SS14 sounds, MIDI, or audio feedback."

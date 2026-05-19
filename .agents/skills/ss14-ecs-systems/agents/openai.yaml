@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 ECS Systems"
+  short_description: "EntitySystem APIs, subscriptions, splits"
+  default_prompt: "Use $ss14-ecs-systems when implementing SS14 EntitySystems."

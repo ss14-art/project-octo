@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 UI BUI"
+  short_description: "Bound UI and predicted BUI guidance"
+  default_prompt: "Use $ss14-ui-bui when changing bound user interfaces."

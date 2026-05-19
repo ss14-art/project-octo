@@ -1,0 +1,19 @@
+---
+name: ss14-chemistry
+description: Chemistry guidance for SS14 Shine work, including reagents, reactions, metabolism, solution containers, reagent effects/conditions, entity solutions, and chemistry prototype localization.
+---
+
+# SS14 Chemistry
+
+## Rules
+
+- Put new Shine chemistry prototypes under `Resources/Prototypes/_sh`.
+- Keep reagent/reaction/metabolism behavior data-driven.
+- Use existing solution container APIs.
+- Be careful with predicted code that resolves solution entities leaving PVS.
+- Localize reagent names, examine text, UI, and feedback.
+- Avoid hardcoding reagent IDs in systems when `ProtoId<ReagentPrototype>` or prototype data can be used.
+
+## Sources
+
+See chemistry, metabolism, reactions, reagents, and solution containers docs through `ss14-wizden-docs`.

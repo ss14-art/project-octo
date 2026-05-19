@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 ECS Components"
+  short_description: "Component fields, access, networking, examples"
+  default_prompt: "Use $ss14-ecs-components when adding or reviewing SS14 components."

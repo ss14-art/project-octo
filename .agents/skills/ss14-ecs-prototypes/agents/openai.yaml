@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 ECS Prototypes"
+  short_description: "Prototype structures and reusable examples"
+  default_prompt: "Use $ss14-ecs-prototypes when creating SS14 prototype content."

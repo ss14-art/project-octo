@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Localization Code"
+  short_description: "Loc.GetString and localized code patterns"
+  default_prompt: "Use $ss14-localization-code when adding localized C# text."

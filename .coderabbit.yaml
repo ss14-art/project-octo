@@ -1,0 +1,51 @@
+language: "en-US"
+
+tone_instructions: |
+  Strict Shine SS14 fork reviewer. Be direct, concrete, and low-noise. Treat .agents/rules as canonical and avoid unrelated style churn.
+
+reviews:
+  profile: "assertive"
+  request_changes_workflow: true
+  high_level_summary: true
+  review_status: true
+  poem: false
+  collapse_walkthrough: true
+  path_filters:
+    - "!RobustToolbox/**"
+  path_instructions:
+    - path: "RobustToolbox/**"
+      instructions: |
+        RobustToolbox is read-only for Shine agents. Do not suggest direct engine edits unless the PR is explicitly an approved engine escalation.
+    - path: "Content.Shared/**"
+      instructions: |
+        Check prediction first. New Shine code should be under Content.Shared/_sh when shared/predicted.
+        Networked components must be shared, use AutoGenerateComponentState/AutoNetworkedField where possible, and dirty changed fields.
+    - path: "Content.Server/**"
+      instructions: |
+        Check server authority and validation of client-origin actions. New Shine code belongs under Content.Server/_sh.
+    - path: "Content.Client/**"
+      instructions: |
+        Client code is presentation/prediction support, not authority. New Shine code belongs under Content.Client/_sh.
+    - path: "Resources/**"
+      instructions: |
+        Check prototype/YAML style, localization, attribution, and _sh placement for Shine resources.
+        Player-facing strings must be localized under Resources/Locale/en-US/_sh when Shine-specific.
+    - path: "**/*.cs"
+      instructions: |
+        Check SS14 ECS style: data-only components, behavior in systems, Entity<T?> APIs with Resolve, On/Try/Can/Do method flow, no magic IDs, no duplicate mechanics.
+        Any non-_sh file change must include a narrow shine-edit marker block.
+    - path: "**/*.yml"
+      instructions: |
+        Check SS14 YAML ordering and indentation. Prototype IDs should be namespaced for Shine where fork-owned.
+        Any non-_sh file change must include native shine-edit marker comments.
+    - path: "**/*.ftl"
+      instructions: |
+        Check kebab-case localization IDs, subsystem scoping, no duplicate generic IDs, and Fluent variables/functions instead of concatenated grammar.
+    - path: ".agents/**"
+      instructions: |
+        .agents is the canonical instruction layer. Prefer small, actionable, non-duplicated guidance. Adapters should point to rules/skills.
+  tools:
+    ast-grep:
+      essential_rules: true
+      rule_dirs:
+        - ".coderabbit/ast-grep-rules"

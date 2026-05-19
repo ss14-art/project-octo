@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Tests Authoring"
+  short_description: "Content and integration test selection"
+  default_prompt: "Use $ss14-tests-authoring when adding SS14 tests."

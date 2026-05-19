@@ -1,0 +1,16 @@
+---
+description: Shine Project SS14 fork rules
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+Load `.agents/rules/README.md`, then route through `.agents/rules/ss14-skill-preflight-and-refresh.md`.
+
+Hard rules:
+
+- Never edit `RobustToolbox/**`.
+- New Shine code goes under `_sh`.
+- Any non-`_sh` file edit must be wrapped in `shine-edit` markers.
+- Use prediction, localization, modular ECS, typed prototype IDs, and .NET 10-current APIs.
+- Do not duplicate mechanics or hardcode one-off behavior.

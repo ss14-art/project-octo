@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Atmos"
+  short_description: "Atmos simulation and mapping guidance"
+  default_prompt: "Use $ss14-atmos for atmos, gas, piping, and air systems."

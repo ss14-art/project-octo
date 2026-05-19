@@ -1,0 +1,6 @@
+id: no-entityuid-invalid
+language: CSharp
+severity: warning
+message: "Use nullable EntityUid? instead of EntityUid.Invalid for optional entities."
+rule:
+  pattern: EntityUid.Invalid

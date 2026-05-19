@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS14 Mapping Design"
+  short_description: "Mapping, departments, and design docs"
+  default_prompt: "Use $ss14-mapping-design for maps, jobs, and design-doc work."
