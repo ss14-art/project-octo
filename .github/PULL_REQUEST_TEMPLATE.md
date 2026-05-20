@@ -1,29 +1,68 @@
-## Short description
-<!-- What do you propose to change with your PR? -->
+## О PR
+<!-- Что вы изменили? Опишите кратко суть PR. -->
 
-## Why we need to add this
-<!-- What is the reason for adding these changes? Please post links to Discussions as well as Bug Reports here. Please describe how this will change the game balance. -->
-
-## Media (Video/Screenshots)
+## Связанные задачи / Обсуждения
 <!--
-If your PR contains in-game changes you must provide screenshots/videos of the changes.
+Ссылки на Issues, Discord-обсуждения, дизайн-документы, которые закрывает или продвигает этот PR.
+Пример: Closes #1234, Related to #5678
 -->
 
-## Checks
-<!-- check boxes for faster reviewing of your PR -->
-
-- [ ] I do not require assistance to complete the PR.
-- [ ] Before posting/requesting review of a PR, I have verified that the changes work.
-- [ ] I have added screenshots/videos of the changes, or this PR does not change in-game mechanics.
-- [ ] I affirm that my changes are licensed under the [MIT License](https://github.com/ss14Starlight/space-station-14/blob/Starlight/LICENSE.TXT) and grant permission for use in this repository under its conditions.
-
-**Changelog**
+## Почему / Баланс
 <!--
-If you want the players to know about changes made in this PR, specify them using the template outside the comment. Short and informative.
+Объясните, зачем нужно это изменение.
+Если PR затрагивает игровой баланс — опишите, как именно и почему это сделано.
+Приложите ссылки на обсуждения баланса или дизайна.
+-->
 
-:cl: STARLIGHT TEAM
-- add: Added Starlight.
-- remove: Removed SS13.
-- tweak: Changed SS14.
-- fix: Fixed Rinary.
+## Технические детали
+<!--
+Краткое описание изменений в коде для облегчения ревью:
+- Изменённые классы/системы
+- Особенности реализации
+- Возможные узкие места
+-->
+
+## Медиа
+<!--
+Прикрепите скриншоты или видео, если PR вносит видимые изменения в игре
+(новые предметы, спрайты, интерфейс, механики и т.п.).
+Для чистого рефакторинга или исправлений, не влияющих на визуал, можно оставить пустым.
+-->
+
+## Чек-лист
+<!-- Отметьте выполненные пункты, поставив X в скобках (например, [X]) -->
+
+- [ ] Я протестировал(а) все добавленные возможности и изменения локально.
+- [ ] Я прикрепил(а) медиа к PR, либо изменения не требуют демонстрации в игре.
+- [ ] Новый код/ресурсы, специфичные для SS14-ART, находятся в каталоге `_Art`, либо я объяснил(а), почему потребовалось изменить upstream-файлы.
+- [ ] Любые изменения вне `_Art` обёрнуты в блок-маркеры `// ss14-art-edit start` / `// ss14-art-edit end`.
+- [ ] Строки, видимые игроку, локализованы (добавлены/обновлены записи в `.ftl`).
+- [ ] Сетевые и интерактивные механики проверены на корректность предикции, использования `Dirty`/`DirtyField` и серверной валидации.
+- [ ] Я не модифицировал `RobustToolbox`.
+
+## Лицензирование
+<!--
+Весь программный код, добавляемый в репозиторий, автоматически распространяется под лицензией GNU AGPL-3.0.
+Вы также можете разрешить использование вашего кода под другими лицензиями — это упростит портирование фич в другие форки.
+Отметьте нужные пункты. Вы должны быть автором кода или иметь право предоставлять такие лицензии.
+-->
+
+- [x] **AGPL-3.0** *([AGPL-3.0-or-later.txt](LICENSES/AGPL-3.0-or-later.txt))*
+- [ ] **Starlight License** *([LICENSE-Starlight.TXT](LICENSES/LICENSE-Starlight.TXT))*
+- [ ] **MIT** *(текст: [MIT.txt](LICENSES/MIT.txt))*
+- [ ] **MPL-2.0** *(текст: [MPL-2.0.txt](LICENSES/MPL-2.0.txt))*
+- [ ] **RPL** *(зарезервирована, см. [RPL.txt](LICENSES/RPL.txt))*
+
+## Чейнджлог
+<!--
+Чейнджлог **обязателен** для всех PR, которые затрагивают игровой процесс, контент или видимые игроку механики.
+Если ваш PR не имеет видимых игроку изменений (рефакторинг, инфраструктура, CI), просто удалите блок с :cl: полностью.
+-->
+<!--
+Пример заполнения:
+:cl: UristMcContributor
+- add: Добавлен новый вид оружия — плазменный резак.
+- tweak: Увеличена скорость передвижения в скафандрах.
+- fix: Больше нельзя просунуть предметы сквозь шлюз.
+- remove: Удалены экспериментальные модули щита.
 -->
