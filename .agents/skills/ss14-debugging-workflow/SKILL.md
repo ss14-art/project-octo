@@ -22,6 +22,12 @@ description: Debugging workflow for SS14 Shine work, including ViewVariables, qu
 - Did the server reject a client action?
 - Is a map/prototype load failure hiding the real error?
 
+## Bundled References
+
+- `references/debugging-mindset.md`: isolate whether the issue is code, data, resources, networking, or prediction.
+- `references/logs-vv-breakpoints.md`: logs, ViewVariables, quickinspect, breakpoints, and predicted-code caveats.
+- `references/console-and-runtime-tools.md`: console/dev-window/fake-lag/lobby/manual runtime checks.
+
 ## Validation
 
 Pick the narrowest useful command:

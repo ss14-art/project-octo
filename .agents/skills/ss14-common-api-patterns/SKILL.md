@@ -30,3 +30,9 @@ description: Common SS14 EntitySystem API patterns for dependencies, prototypes,
 - Use `SoundSpecifier` for sounds.
 - Use `SpriteSpecifier` for sprites/textures.
 - Prefer sound collections when reusable.
+
+## Bundled References
+
+- `references/entitysystem-functions.md`: public system APIs, dependencies, `Resolve`, and mutation boundaries.
+- `references/prototype-manager-and-spawn.md`: prototype lookups, typed IDs, spawning, and avoiding magic IDs.
+- `references/audio-popup-random.md`: predicted feedback, localization, random, and user-facing effects.

@@ -2,7 +2,9 @@
 
 Local docs root: `D:\.avid\docs\src\en`.
 
-Use this as a routing map. Read the named local document before changing the matching subsystem. If the document is stale, follow current repo code and Shine rules.
+Use this as the curated routing map for the docs most often needed by code agents. Read the named local document before changing the matching subsystem. If the document is stale, follow current repo code and Shine rules.
+
+For the complete local docs snapshot, including community, server-hosting, staff, admin, engine-development, and meeting-note documents not listed below, use `wizden-docs-full-catalog.md`.
 
 ## Development And Contribution
 

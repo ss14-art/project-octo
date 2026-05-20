@@ -18,6 +18,11 @@ description: NPC and AI guidance for SS14 Shine work, including blackboards, tas
 
 NPC behavior should be composable: sensing, planning, movement, action, and feedback should be separable enough that future NPCs can reuse them.
 
+## Bundled References
+
+- `references/blackboard-task-planning.md`: blackboards, tasks, planning, reusable behavior slices, and data-driven NPCs.
+- `references/pathfinding-updates.md`: pathfinding, collision avoidance, update scheduling, and performance checks.
+
 ## Sources
 
 Read `space-station-14/core-tech/npcs.md` through `ss14-wizden-docs`.

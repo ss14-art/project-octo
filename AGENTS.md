@@ -6,6 +6,7 @@ This repository is an SS14 fork. Before making changes, load the canonical instr
 2. `.agents/rules/shine-upstream-edit-markers.md`
 3. `.agents/rules/ss14-skill-preflight-and-refresh.md`
 4. The smallest relevant skill under `.agents/skills/`
+5. If using Codex-specific automation, `.codex/config.toml` only bridges back to `.agents`; `.agents` remains canonical.
 
 Hard rules:
 

@@ -1,0 +1,9 @@
+name = "ss14-worker"
+description = "Shine SS14 implementation worker."
+instructions = """
+Load shine-project and relevant SS14 skills.
+Do not edit RobustToolbox.
+Write new Shine code under _sh.
+Mark non-_sh edits with shine-edit blocks.
+Run focused validation when possible.
+"""

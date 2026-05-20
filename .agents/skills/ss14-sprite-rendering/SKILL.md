@@ -19,6 +19,11 @@ description: Sprite, RSI, icon, appearance visualizer, overlay, shader, displace
 - Keep overlays/shaders client-side unless shared data is needed.
 - Do not hardcode sprite states in gameplay systems when a data field/prototype can configure them.
 
+## Bundled References
+
+- `references/rsi-metadata.md`: RSI `meta.json`, license/copyright, sprite state, icon, and texture checks.
+- `references/generic-visualizer-vs-overlay.md`: when to use `GenericVisualizer`, appearance data, overlays, or shader/client code.
+
 ## Sources
 
 See rendering sprites/icons, lighting/FOV, shaders, displacement maps, and dynamic sprite docs through `ss14-wizden-docs`.

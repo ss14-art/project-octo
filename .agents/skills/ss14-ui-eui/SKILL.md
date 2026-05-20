@@ -22,3 +22,8 @@ description: EUI guidance for SS14 Shine work. Use for admin/server-driven exter
 ## Review
 
 Check for authorization, spoofed messages, stale state, and leaks of sensitive data.
+
+## Bundled References
+
+- `references/eui-vs-bui.md`: when EUI is appropriate and when BUI/XAML is the better fit.
+- `references/eui-security.md`: permission, spoofing, stale-state, and data-leak checks.

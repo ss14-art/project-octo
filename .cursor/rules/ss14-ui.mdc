@@ -1,0 +1,9 @@
+---
+description: Shine client UI rules
+globs:
+  - "Content.Client/**/*.cs"
+  - "Content.Client/**/*.xaml"
+alwaysApply: false
+---
+
+Client UI is presentation, not authority. Use XAML when possible, localize text, and validate BUI/EUI actions server-side.

@@ -13,6 +13,8 @@ description: SS14 C# and YAML code style for Shine Project, including handler na
 - DataFields and public APIs need useful XML docs when non-obvious.
 - Comments explain why, not mechanical what.
 - Avoid magic strings/numbers and copy-paste code.
+- Use `TimeSpan`, `IGameTiming.CurTime`, paused fields, and serializers for runtime timers.
+- Avoid extension methods on simulation types; prefer EntitySystem public APIs.
 
 ## Naming
 
@@ -32,3 +34,8 @@ description: SS14 C# and YAML code style for Shine Project, including handler na
 ## YAML
 
 Follow `.agents/rules/ss14-style-localization.md`.
+
+## Bundled References
+
+- `references/csharp-review-checklist.md`: C#, ECS, event, dependency, TimeSpan, and performance checks from WizDen conventions.
+- `references/yaml-ftl-style.md`: YAML, prototype, FTL, sprite metadata, and localization style reminders.

@@ -11,6 +11,11 @@ description: SS14 YAML prototype, data field, localization, guidebook, entity ta
 - New Shine FTL goes in `Resources/Locale/en-US/_sh/<Subsystem>/`.
 - Do not mix Shine prototypes into upstream files unless integration requires it; then use `shine-edit` markers.
 
+## Bundled References
+
+- `references/first-prototype-workflow.md`: add a new entity/prototype without drifting into upstream files.
+- `references/common-prototype-components.md`: common component/resource/localization checks for SS14 prototypes.
+
 ## YAML Style
 
 - Prototype block order: `type`, `abstract`, `parent`, `id`, `categories`, `name`, `suffix`, `description`, `components`.

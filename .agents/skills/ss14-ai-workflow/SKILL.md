@@ -17,6 +17,12 @@ Use this skill to keep agent work boring, narrow, and reviewable.
 6. Add new APIs only when they remove real duplication or make future extension safer.
 7. Validate, then self-review with `.agents/rules/ss14-review-checklist.md`.
 
+## Bundled References
+
+- `references/ai-strengths-and-risks.md`: where agents help and where they usually create review noise.
+- `references/prompting-patterns.md`: how bridge files should route requests into canon without duplicating policy.
+- `references/verification-rules.md`: validation and self-review loop for code, resources, docs, and bot config.
+
 ## Anti-Patterns To Stop
 
 - Writing code before checking current local patterns.

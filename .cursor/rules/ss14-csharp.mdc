@@ -1,0 +1,8 @@
+---
+description: Shine SS14 C# rules
+globs:
+  - "**/*.cs"
+alwaysApply: false
+---
+
+Use `ss14-csharp-style`, `ss14-interaction-flow`, and relevant ECS skills. Prefer `Entity<T?>`, `Resolve`, dependencies, localized strings, and prediction-safe APIs.

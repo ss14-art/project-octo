@@ -20,6 +20,12 @@ description: Placement and dependency rules for SS14 Content.Shared, Content.Ser
 - Client code is never authoritative.
 - Server must validate client-origin actions.
 
+## Bundled References
+
+- `references/client-server-primer.md`: assembly responsibilities and dependency direction.
+- `references/shared-and-prediction.md`: shared abstract systems, client/server derived systems, and predicted split choices.
+- `references/networking-and-dirty.md`: dirtying, component state, and server validation reminders.
+
 ## Predicted Split Pattern
 
 When a system needs side-specific code:

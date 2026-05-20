@@ -1,0 +1,17 @@
+# Shine Project Codex bridge.
+# Canonical instructions live in .agents/rules and .agents/skills.
+
+[project]
+name = "shine-project"
+default_skill = "shine-project"
+
+[instructions]
+root = ".agents"
+rules = ".agents/rules"
+skills = ".agents/skills"
+
+[guardrails]
+forbid_paths = ["RobustToolbox/**"]
+fork_path_segment = "_sh"
+upstream_marker_start = "shine-edit start"
+upstream_marker_end = "shine-edit end"

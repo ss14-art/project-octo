@@ -18,6 +18,11 @@ description: Database and EF Core migration guidance for Shine Project SS14 work
 
 The repo uses EF Core 10 packages. Check `Directory.Packages.props` and existing migration patterns before adding code.
 
+## Bundled References
+
+- `references/efcore-fork-rules.md`: fork-owned tables, namespaced models/migrations, and upstream table boundaries.
+- `references/migration-validation.md`: SQLite/Postgres validation and review checklist.
+
 ## Placement
 
 - Shared database models: database-specific shared project if existing pattern requires it.

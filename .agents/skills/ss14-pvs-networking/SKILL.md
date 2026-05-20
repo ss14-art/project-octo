@@ -20,6 +20,11 @@ description: PVS and visibility guidance for SS14 Shine work, including Potentia
 - Does leaving PVS pause or detach the entity and break predicted logic?
 - Is an override temporary, scoped, and documented?
 
+## Bundled References
+
+- `references/session-specific-data.md`: owner-only/session-specific component state and hidden-information review.
+- `references/pvs-overrides.md`: session/global overrides, view subscribers, nullspace, cleanup, and scope.
+
 ## Sources
 
 Read prediction guide PVS sections and `basic-networking-and-you.md` through `ss14-wizden-docs`.

@@ -12,6 +12,12 @@ description: ECS guidance for SS14 components, entity systems, events, APIs, and
 - EntitySystems own behavior, validation, mutation, events, and public APIs.
 - Prefer composition and reusable components over inheritance-heavy mechanics.
 
+## Bundled References
+
+- `references/ecs-primer.md`: ECS mental model and split between entities, components, systems, and events.
+- `references/simple-system-walkthrough.md`: minimal component/system flow for new gameplay.
+- `references/event-reading-guide.md`: event naming, by-ref events, handled/cancellable events, and method-event alternatives.
+
 ## Component Rules
 
 - Use `[RegisterComponent]` and `partial`.

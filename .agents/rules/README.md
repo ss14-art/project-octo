@@ -8,7 +8,16 @@ Load these before code changes:
 - `shine-upstream-edit-markers.md`
 - `ss14-skill-preflight-and-refresh.md`
 - `ss14-code-placement.md`
+- `ss14-csharp-style.md`
+- `ss14-engine-boundaries.md`
+- `ss14-interaction-flow.md`
+- `ss14-localization-required.md`
+- `ss14-testing-and-validation.md`
 - `ss14-prediction-networking.md`
+- `ss14-netcode-security.md`
+- `ss14-prototype-yaml.md`
+- `ss14-assets-attribution.md`
+- `shine-review-bot-guidelines.md`
 - `ss14-style-localization.md`
 - `ss14-review-checklist.md`
 - `wizden-docs-routing.md`

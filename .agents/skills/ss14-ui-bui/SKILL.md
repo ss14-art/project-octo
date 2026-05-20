@@ -23,3 +23,8 @@ Use this skill only for Bound User Interfaces. For XAML layout/style, use `ss14-
 - Shared BUI state/message types: `Content.Shared/_sh`.
 - Server BUI handling: `Content.Server/_sh`.
 - Client window/controller code: `Content.Client/_sh`.
+
+## Bundled References
+
+- `references/ui-flow-map.md`: decide between XAML, BUI, EUI, shared state, and server handlers.
+- `references/predicted-bui-patterns.md`: predicted BUI state/message patterns and common duplication traps.

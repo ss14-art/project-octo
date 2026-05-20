@@ -26,6 +26,11 @@ description: Porting, attribution, fork isolation, upstream merge, and license g
 - Namespace migrations.
 - Test SQLite and Postgres paths when persistence changes.
 
+## Bundled References
+
+- `references/source-license-checklist.md`: source, commit, author, license, compatibility, and import decision checks.
+- `references/attribution-patterns.md`: code, asset, RSI, station image, and generic attribution placement.
+
 ## Sources
 
 See `ss14-wizden-docs` for forking tips, PRs with engine changes, generic attribution, station image specs, and PR guidelines.

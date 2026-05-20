@@ -18,6 +18,11 @@ description: Audio guidance for SS14 Shine work, including SoundSpecifier, sound
 
 If MIDI or soundfont behavior changes, read the local WizDen MIDI docs and current repo code first.
 
+## Bundled References
+
+- `references/audio-specifiers.md`: `SoundSpecifier`, sound collections, resource paths, and data-driven sound fields.
+- `references/predicted-audio.md`: when to use `PlayPredicted`, local playback, PVS playback, and how to avoid duplicate audio.
+
 ## Sources
 
 See `ss14-wizden-docs` for conventions and `robust-toolbox/midi.md`.

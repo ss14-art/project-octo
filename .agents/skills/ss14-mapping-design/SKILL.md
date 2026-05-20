@@ -19,6 +19,11 @@ description: Mapping and game design guidance for Shine Project SS14 work, inclu
 - Consider accessibility, admin burden, balance, and round-flow impact.
 - For proposals, use the proposal/design-doc templates.
 
+## Bundled References
+
+- `references/mapping-checklist.md`: map validation areas, common mapping failures, and launch-readiness checks.
+- `references/design-principles.md`: core design, department, antagonist, species, accessibility, and proposal review heuristics.
+
 ## Sources
 
 Use `ss14-wizden-docs` for mapping guides, department docs, core design principles, accessibility, species guidelines, round-flow and antagonist proposals.

@@ -18,6 +18,11 @@ description: Transform, coordinates, grids, maps, anchoring, fixtures, collision
 - Prefer transform anchoring; use static physics bodies only when the choice is deliberate.
 - Keep fixtures, density, masks, and layers prototype/data-driven where possible.
 
+## Bundled References
+
+- `references/coordinate-and-grid-rules.md`: entity/map/grid coordinates, nullspace, anchoring, and map-aware placement.
+- `references/collision-and-fixtures.md`: fixture/layer/mask/joint review and physics performance checks.
+
 ## Prediction
 
 Movement and interaction code often needs prediction. Load `ss14-networking-prediction` for client-visible behavior.

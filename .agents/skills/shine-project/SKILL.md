@@ -15,6 +15,11 @@ This is the root skill for Shine Project. Use it first, then load narrower SS14 
 4. Identify affected assemblies and load the matching skills.
 5. Search the repo for current patterns before coding.
 
+## Bundled References
+
+- `references/preflight-checklist.md`: quick checklist before editing code, resources, tests, or agent instructions.
+- `references/shine-path-map.md`: where Shine-owned C#, YAML, FTL, assets, tests, and configs belong.
+
 ## Hard Rules
 
 - Never edit `RobustToolbox/**`.

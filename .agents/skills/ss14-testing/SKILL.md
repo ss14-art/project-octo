@@ -14,6 +14,11 @@ description: Test and validation guidance for Shine Project SS14 changes. Use wh
 - UI: open the UI path in-game when possible and check localization and resizing.
 - Agent configs: validate YAML/JSON and skill frontmatter.
 
+## Bundled References
+
+- `references/validation-command-map.md`: command selection by changed area.
+- `references/manual-test-report.md`: what to record when automation is not enough.
+
 ## Test Design
 
 - Test public EntitySystem APIs, not private implementation details.

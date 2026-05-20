@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "command": "python .codex/hooks/session_start_shine.py"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "command": "python .codex/hooks/pre_tool_use_shine.py"
+      }
+    ],
+    "Stop": [
+      {
+        "command": "python .codex/hooks/stop_shine.py"
+      }
+    ]
+  }
+}

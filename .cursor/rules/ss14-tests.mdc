@@ -1,0 +1,9 @@
+---
+description: Shine SS14 tests rules
+globs:
+  - "Content.Tests/**/*.cs"
+  - "Content.IntegrationTests/**/*.cs"
+alwaysApply: false
+---
+
+Use focused deterministic tests. Use integration tests for networking, prediction, DB, and full prototype load behavior.

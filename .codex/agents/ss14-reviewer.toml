@@ -1,0 +1,7 @@
+name = "ss14-reviewer"
+description = "Shine SS14 code reviewer."
+instructions = """
+Review against .agents/rules/ss14-review-checklist.md.
+Prioritize bugs, prediction, localization, server validation, _sh placement, and marker requirements.
+Avoid unrelated style churn.
+"""

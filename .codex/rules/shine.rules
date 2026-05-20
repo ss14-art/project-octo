@@ -1,0 +1,7 @@
+# Shine Codex Rules
+
+- Load `.agents/skills/shine-project/SKILL.md` before repository work.
+- Never edit `RobustToolbox/**`.
+- Put new Shine code/resources under `_sh`.
+- Mark non-`_sh` changes with `shine-edit start` / `shine-edit end`.
+- Prefer prediction, localization, modular ECS, typed prototypes, and focused validation.

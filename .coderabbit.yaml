@@ -13,6 +13,9 @@ reviews:
   path_filters:
     - "!RobustToolbox/**"
   path_instructions:
+    - path: ".codex/**"
+      instructions: |
+        Codex bridge files must route back to .agents and must not introduce policy that conflicts with .agents/rules.
     - path: "RobustToolbox/**"
       instructions: |
         RobustToolbox is read-only for Shine agents. Do not suggest direct engine edits unless the PR is explicitly an approved engine escalation.

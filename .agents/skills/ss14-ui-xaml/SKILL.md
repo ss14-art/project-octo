@@ -20,6 +20,11 @@ description: XAML UI guidance for SS14 Shine work, including Robust UI controls,
 - Shared messages/state go under `Content.Shared/_sh`.
 - FTL goes under `Resources/Locale/en-US/_sh`.
 
+## Bundled References
+
+- `references/xaml-layout-style.md`: XAML controls, containers, style classes, sizing, and localization layout checks.
+- `references/ui-controller-lifetime.md`: UI controller/window lifetime, subscriptions, and C# event cleanup.
+
 ## Sources
 
 See Robust UI docs, UI containers, `ui-and-you.md`, UI survival guide, and UI cookbook through `ss14-wizden-docs`.

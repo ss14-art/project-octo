@@ -1,0 +1,10 @@
+---
+description: Shine Resources rules
+globs:
+  - "Resources/**/*.yml"
+  - "Resources/**/*.ftl"
+  - "Resources/**/*.json"
+alwaysApply: false
+---
+
+New Shine resources belong under `_sh`. Follow SS14 YAML style, FTL localization, asset attribution, and prototype ID namespacing.

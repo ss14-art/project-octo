@@ -1,0 +1,16 @@
+# Feature Checklist
+
+Before implementation:
+
+- Search for existing mechanics and APIs.
+- Decide Shared/Server/Client/Resources placement.
+- Define data model in components/prototypes.
+- Plan prediction and network state.
+- Plan localization.
+- Plan validation.
+
+Before final:
+
+- Check `_sh` placement.
+- Check marker blocks for non-`_sh` edits.
+- Check no duplicate mechanic was introduced.

@@ -19,6 +19,11 @@ description: Atmospherics guidance for SS14 Shine work, including gas simulation
 - For mapping-related atmos, check map/grid/device assumptions.
 - Use localized UI/examine text.
 
+## Bundled References
+
+- `references/atmos-authority.md`: why atmos usually stays server-authoritative and how to split shared data safely.
+- `references/atmos-mapping-checks.md`: mapping and prototype checks for pipes, vents, scrubbers, air alarms, and gas assumptions.
+
 ## Sources
 
 See `ss14-wizden-docs` for atmos department design, mapping atmos guidance, and transform/physics/grid docs.

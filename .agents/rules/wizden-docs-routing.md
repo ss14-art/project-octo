@@ -7,4 +7,4 @@ The local WizDen docs snapshot is a reference library, not the source of truth f
 - If local docs conflict with current repo code, prefer current repo code and update/extend the skill note instead of blindly following old docs.
 - If docs conflict with Shine guardrails, Shine guardrails win.
 
-Use `.agents/skills/ss14-wizden-docs/references/wizden-docs-index.md` to find the relevant document.
+Use `.agents/skills/ss14-wizden-docs/references/wizden-docs-index.md` for the curated map and `.agents/skills/ss14-wizden-docs/references/wizden-docs-full-catalog.md` for the complete local markdown catalog.

@@ -1,4 +1,4 @@
 interface:
   display_name: "SS14 WizDen Docs"
-  short_description: "Local WizDen docs reference routing"
-  default_prompt: "Use $ss14-wizden-docs to find relevant WizDen docs before coding."
+  short_description: "Route the full local WizDen docs snapshot"
+  default_prompt: "Use $ss14-wizden-docs to find and apply the relevant local WizDen docs before coding."

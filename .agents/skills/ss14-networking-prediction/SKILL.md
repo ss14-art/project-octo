@@ -9,6 +9,11 @@ description: Prediction and networking guidance for SS14 component states, AutoN
 
 Make new interactive gameplay predicted when feasible. If prediction is impossible, document why.
 
+## Bundled References
+
+- `references/predicted-api-selection.md`: choose predicted popup, audio, spawn/delete, and BUI APIs.
+- `references/dirty-and-field-deltas.md`: when to call `Dirty`, when to use `DirtyField`, and how to avoid noisy networking.
+
 ## Component State
 
 - Shared networked components live in `Content.Shared/_sh`.
@@ -31,6 +36,8 @@ Make new interactive gameplay predicted when feasible. If prediction is impossib
 - Treat client network messages as untrusted.
 - Validate user, range, ownership, cooldown, permissions, entity lifestage, and target state on the server.
 - Do not network hidden data to all clients for convenience.
+- Use PVS/session-specific networking when the client only needs owner, role, admin, camera, or subscribed-view data.
+- Convert entity references with `NetEntity` at network boundaries and clear nullable entity refs when entities can be deleted or leave PVS.
 
 ## Testing
 
