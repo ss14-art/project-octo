@@ -1,32 +1,4 @@
 Entries:
-- author: Citrea
-  changes:
-  - message: Cyberarm tools can now be used for surgery on IPCs.
-    type: Fix
-  id: 404831
-  time: '2026-05-07T07:05:28.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4298
-- author: wonderfulnewworld
-  changes:
-  - message: (Starboard) Massive Mains expansion north of Cargo/Science.
-    type: Add
-  id: 404832
-  time: '2026-05-07T08:14:28.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4371
-- author: wonderfulnewworld
-  changes:
-  - message: (Starboard) The Lawyers have arrived.
-    type: Add
-  id: 404833
-  time: '2026-05-07T08:14:28.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4371
-- author: wonderfulnewworld
-  changes:
-  - message: (Starboard) Robotics and the Brig now support IPCs.
-    type: Add
-  id: 404834
-  time: '2026-05-07T08:14:28.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4371
 - author: wonderfulnewworld
   changes:
   - message: (Starboard) Keycard Authentication Devices have been added to all heads' rooms.
@@ -2799,4 +2771,32 @@ Entries:
   id: 405230
   time: '2026-05-22T11:58:41.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4502
+- author: Rinary
+  changes:
+  - message: Fixed bug when terror princess can close eggs laying window and then it consumes charge. Now it consumes charge only after egg laying.
+    type: Fix
+  id: 405231
+  time: '2026-05-22T12:31:46.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4488
+- author: Rinary
+  changes:
+  - message: Fixed win message missing for terror spiders.
+    type: Fix
+  id: 405232
+  time: '2026-05-22T12:31:46.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4488
+- author: Rinary
+  changes:
+  - message: Fixed bug when terror spiders ban ignores player count/current gamepreset.
+    type: Fix
+  id: 405233
+  time: '2026-05-22T12:31:46.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4488
+- author: Rinary
+  changes:
+  - message: Fixed bug when cocoon drawn under webs, so you can't inject eggs.
+    type: Fix
+  id: 405234
+  time: '2026-05-22T12:31:46.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4488
 Order: -1
