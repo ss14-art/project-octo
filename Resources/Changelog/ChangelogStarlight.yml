@@ -1,102 +1,4 @@
 Entries:
-- author: wonderfulnewworld
-  changes:
-  - message: (Starboard) Keycard Authentication Devices have been added to all heads' rooms.
-    type: Add
-  id: 404835
-  time: '2026-05-07T08:14:28.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4371
-- author: wonderfulnewworld
-  changes:
-  - message: You can no longer insert literally anything into the normal golden mk 58.
-    type: Fix
-  id: 404836
-  time: '2026-05-07T13:29:25.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4385
-- author: Caws
-  changes:
-  - message: Scarves now protect you from cold temperatures, equivalent to wearing winter boots.
-    type: Add
-  id: 404837
-  time: '2026-05-08T05:49:51.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4388
-- author: Caws
-  changes:
-  - message: Winter boots protection from cold temperatures has been slightly decreased.
-    type: Tweak
-  id: 404838
-  time: '2026-05-08T05:49:51.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4388
-- author: Caws
-  changes:
-  - message: Winter coats protection from cold temperatures has been decreased. Wearing a coat with either a scarf or boots will still give you plenty of resistance against dangerously cold temperatures.
-    type: Tweak
-  id: 404839
-  time: '2026-05-08T05:49:51.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4388
-- author: Caws
-  changes:
-  - message: Boxes of shotgun ammo are now available on the Syndicate Uplinks. Hushpup enjoys rejoice.
-    type: Add
-  id: 404840
-  time: '2026-05-08T05:49:53.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4368
-- author: Kirb, honeyed-lemons
-  changes:
-  - message: Quick Construct, use a construction material in your hand to access a radial menu of common blueprints.
-    type: Add
-  id: 404841
-  time: '2026-05-08T09:32:32.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4351
-- author: Unknown
-  changes:
-  - message: Completely changed most of the backgrounds wordings as to encourage RP rather than grant Meta-Info.
-    type: Tweak
-  id: 404842
-  time: '2026-05-08T10:23:13.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4312
-- author: Unknown
-  changes:
-  - message: Added "USSP" Background.
-    type: Add
-  id: 404843
-  time: '2026-05-08T10:23:13.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4312
-- author: Unknown
-  changes:
-  - message: Added "Paradox Clone" Background.
-    type: Add
-  id: 404844
-  time: '2026-05-08T10:23:13.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4312
-- author: Unknown
-  changes:
-  - message: Added "Corporate Frontier" Background.
-    type: Add
-  id: 404845
-  time: '2026-05-08T10:23:13.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4312
-- author: Unknown
-  changes:
-  - message: Added "Outer Fringe" Background.
-    type: Add
-  id: 404846
-  time: '2026-05-08T10:23:13.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4312
-- author: Unknown
-  changes:
-  - message: You can now have 2 Backgrounds.
-    type: Add
-  id: 404847
-  time: '2026-05-08T10:23:13.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4312
-- author: Huaqas, Centronias
-  changes:
-  - message: Go Fish! A new card game can be found in the Games Clean Fun Vendor!
-    type: Add
-  id: 404848
-  time: '2026-05-08T10:23:15.000000+00:00'
-  url: https://github.com/ss14Starlight/space-station-14/pull/4348
 - author: Scarlet Lightweaver.
   changes:
   - message: Changed ParticleDecelerator to deal 10 rad damage.
@@ -2799,4 +2701,102 @@ Entries:
   id: 405234
   time: '2026-05-22T12:31:46.000000+00:00'
   url: https://github.com/ss14Starlight/space-station-14/pull/4488
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: (NanoTrasen, MedTak, and NT Derelict) Cyborgs can now pry unpowered doors without the need for a crowbar.
+    type: Add
+  id: 405235
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: Entities that can pry things innately (zombies, spiders, etc) now have an alert telling them so.
+    type: Add
+  id: 405236
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Mothership can now create a Jump Module for the Scout Xenoborg, allowing it to be more evasive.
+    type: Add
+  id: 405237
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Mothership can now create a Tile Gun Module for the Engineering Xenoborg, allowing it to shoot tiles at its enemies. They're not that strong, but they make for good suppressive fire.
+    type: Add
+  id: 405238
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Mothership can now make a Tier 3 Module for the Heavy Xenoborg, giving it access to a Bitterfrost Cannon.
+    type: Add
+  id: 405239
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Mothership can now make a Tier 3 Module for the Scout Xenoborg, giving it access to a real Energy Sword and a very weak, but unbreakable, Energy Shield, acting as an armor upgrade.
+    type: Add
+  id: 405240
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Mothership can now make an advanced Hypo Module for the Stealth Xenoborg, giving it some more Nocturine, in addition to Tazinide and Mute Toxin Hypos. (It costs the same as the Tier 3 Modules due to how useful this is.).
+    type: Add
+  id: 405241
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: You can now use hypos as a really bad weapon, dealing only 5 damage. It does transfer liquid inside of them, however...
+    type: Add
+  id: 405242
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Hypo Module now also comes with a Licoxide Hypo.
+    type: Tweak
+  id: 405243
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: The Scout and Engineer Xenoborgs now have an extra module slot.
+    type: Tweak
+  id: 405244
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: Xenoborgs, the full gamemode (not available to Beta, as they get SubXenoborgs) now scales 1:15, with a max of 8 starting Xenoborgs.
+    type: Tweak
+  id: 405245
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: XenoborgsLP is now referred to as SubXenoborgs to be consistent with the other subgamemodes.
+    type: Tweak
+  id: 405246
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: SubXenoborgs now only shows up 5% of the time, the same as the other "rare" subgamemode antags.
+    type: Tweak
+  id: 405247
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
+- author: wonderfulnewworld, ScarKy0, Samuka-C, august-sun
+  changes:
+  - message: When reloading guns or magazines with stack items, it only reloads one at the time, instead of inserting the whole stack.
+    type: Fix
+  id: 405248
+  time: '2026-05-22T12:31:48.000000+00:00'
+  url: https://github.com/ss14Starlight/space-station-14/pull/4494
 Order: -1
