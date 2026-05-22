@@ -57,6 +57,7 @@ SPDX-License-Identifier: MIT
 | MIT             | `MIT`                      |
 | Mozilla MPL 2.0 | `MPL-2.0`                  |
 | RPL             | `RPL-1.5`                  |
+| Starlight       | `MIT-Starlight`            |
 
 ## 3. Лицензирование ассетов
 
