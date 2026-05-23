@@ -1,13 +1,13 @@
 ---
 name: ss14-sprite-rendering
-description: Sprite, RSI, icon, appearance visualizer, overlay, shader, displacement map, and rendering guidance for SS14 Shine work. Use when changing visuals, dynamic sprites, GenericVisualizer, overlays, textures, or shader resources.
+description: Sprite, RSI, icon, appearance visualizer, overlay, shader, displacement map, and rendering guidance for SS14 SS14-ART-CORE work. Use when changing visuals, dynamic sprites, GenericVisualizer, overlays, textures, or shader resources.
 ---
 
 # SS14 Sprite Rendering
 
 ## Resources
 
-- Put new Shine textures under `Resources/Textures/_sh`.
+- Put new SS14-ART-CORE textures under `Resources/Textures/_Art`.
 - Keep RSI `meta.json` ordered and formatted.
 - Preserve license and copyright metadata.
 - Use `SpriteSpecifier` for configurable sprite fields.

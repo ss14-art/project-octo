@@ -1,6 +1,6 @@
 ---
 name: ss14-sprite-overlays-shaders
-description: Sprite, overlay, shader, RSI, and rendering resource guidance for Shine Project SS14 work. Use when adding or reviewing sprite states, overlays, shaders, icons, displacement maps, RSI metadata, visual resources, or client rendering code.
+description: Sprite, overlay, shader, RSI, and rendering resource guidance for SS14-ART-CORE SS14 work. Use when adding or reviewing sprite states, overlays, shaders, icons, displacement maps, RSI metadata, visual resources, or client rendering code.
 ---
 
 # SS14 Sprite Overlays Shaders
@@ -15,7 +15,7 @@ This is the rendering-resource companion to `ss14-graphics-generic-visualizer-ap
 
 ## Rules
 
-- Put Shine textures under `Resources/Textures/_sh`.
+- Put SS14-ART-CORE textures under `Resources/Textures/_Art`.
 - Preserve asset attribution.
 - Keep render code client-side.
 - Prefer data-driven visual state over hardcoded sprite switches.

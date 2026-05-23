@@ -2,7 +2,7 @@
 
 Use this rule whenever a task smells like it might require engine work.
 
-## Shine Default
+## SS14-ART-CORE Default
 
 - Do not edit `RobustToolbox/**`.
 - Assume gameplay, prediction, UI, prototype, and localization issues belong in content code first.
@@ -11,7 +11,7 @@ Use this rule whenever a task smells like it might require engine work.
 ## Before Proposing Engine Work
 
 1. Confirm the issue cannot be solved in `Content.Shared`, `Content.Server`, `Content.Client`, or `Resources`.
-2. Check whether Shine can add an extension point under `_sh`.
+2. Check whether SS14-ART-CORE can add an extension point under `_Art`.
 3. Prefer extending an existing public content API over patching engine internals.
 4. Explain the missing engine hook to the user/maintainer before editing.
 

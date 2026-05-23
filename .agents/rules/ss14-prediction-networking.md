@@ -4,7 +4,7 @@ Prediction is the default for new interactive gameplay when feasible.
 
 ## Checklist
 
-- Put predicted components and systems in `Content.Shared/_sh`.
+- Put predicted components and systems in `Content.Shared/_Art`.
 - Use `[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]` on shared networked components.
 - Mark changed networked fields with `[AutoNetworkedField]`.
 - Call `Dirty` or `DirtyField` whenever a networked field changes.

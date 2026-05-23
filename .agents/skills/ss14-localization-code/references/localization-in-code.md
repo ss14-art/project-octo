@@ -3,7 +3,7 @@
 Use:
 
 ```csharp
-Loc.GetString("shine-feature-message", ("user", user), ("target", target))
+Loc.GetString("art-core-feature-message", ("user", user), ("target", target))
 ```
 
 Avoid:
@@ -13,4 +13,4 @@ Avoid:
 - comparing localized output;
 - showing raw IDs to players.
 
-Put matching FTL under `Resources/Locale/en-US/_sh`.
+Put matching FTL under `Resources/Locale/en-US/_Art`.

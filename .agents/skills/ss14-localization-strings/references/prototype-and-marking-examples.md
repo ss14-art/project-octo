@@ -3,8 +3,8 @@
 Entity prototype style:
 
 ```ftl
-ent-ShineExampleItem = example item
-    .desc = A small Shine example item.
+ent-ArtCoreExampleItem = example item
+    .desc = A small SS14-ART-CORE example item.
 ```
 
 Marking/reagent/dataset names should use the local ID convention already present in nearby files.

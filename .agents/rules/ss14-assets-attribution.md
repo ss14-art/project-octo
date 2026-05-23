@@ -9,8 +9,8 @@ Use this rule for textures, audio, RSI metadata, icons, station images, and impo
 - Do not import assets with incompatible commercial/copyleft terms without maintainer approval.
 - Do not mix asset ports with unrelated code cleanup.
 
-## Shine Placement
+## SS14-ART-CORE Placement
 
-- Textures: `Resources/Textures/_sh`.
-- Audio: `Resources/Audio/_sh`.
-- Prototype references to new assets should live under `_sh` unless integrating into upstream content.
+- Textures: `Resources/Textures/_Art`.
+- Audio: `Resources/Audio/_Art`.
+- Prototype references to new assets should live under `_Art` unless integrating into upstream content.

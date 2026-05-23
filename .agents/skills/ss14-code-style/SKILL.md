@@ -1,6 +1,6 @@
 ---
 name: ss14-code-style
-description: SS14 C# and YAML code style for Shine Project, including handler naming, dependency naming, Entity generic APIs, On/Try/Can/Do method shape, DataField/ProtoId/Prototype style, localization naming, comments, classes, TimeSpan, and performance guardrails.
+description: SS14 C# and YAML code style for SS14-ART-CORE, including handler naming, dependency naming, Entity generic APIs, On/Try/Can/Do method shape, DataField/ProtoId/Prototype style, localization naming, comments, classes, TimeSpan, and performance guardrails.
 ---
 
 # SS14 Code Style

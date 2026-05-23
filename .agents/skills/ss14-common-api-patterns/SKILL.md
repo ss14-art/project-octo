@@ -1,6 +1,6 @@
 ---
 name: ss14-common-api-patterns
-description: Common SS14 EntitySystem API patterns for dependencies, prototypes, audio, popups, appearance, containers, DoAfter, timing, admin logs, CVars, and public system APIs. Use when implementing reusable game logic in Shine Project.
+description: Common SS14 EntitySystem API patterns for dependencies, prototypes, audio, popups, appearance, containers, DoAfter, timing, admin logs, CVars, and public system APIs. Use when implementing reusable game logic in SS14-ART-CORE.
 ---
 
 # SS14 Common API Patterns

@@ -1,6 +1,6 @@
 ---
 name: ss14-ui-xaml
-description: XAML UI guidance for SS14 Shine work, including Robust UI controls, styles, containers, UI controllers, responsive layout, localization, and avoiding C#-only UI when XAML is appropriate.
+description: XAML UI guidance for SS14 SS14-ART-CORE work, including Robust UI controls, styles, containers, UI controllers, responsive layout, localization, and avoiding C#-only UI when XAML is appropriate.
 ---
 
 # SS14 UI XAML
@@ -16,9 +16,9 @@ description: XAML UI guidance for SS14 Shine work, including Robust UI controls,
 
 ## Placement
 
-- XAML and client code go under `Content.Client/_sh`.
-- Shared messages/state go under `Content.Shared/_sh`.
-- FTL goes under `Resources/Locale/en-US/_sh`.
+- XAML and client code go under `Content.Client/_Art`.
+- Shared messages/state go under `Content.Shared/_Art`.
+- FTL goes under `Resources/Locale/en-US/_Art`.
 
 ## Bundled References
 

@@ -1,8 +1,8 @@
-# Shine Prefixes And Namespaces
+# SS14-ART-CORE Prefixes And Namespaces
 
 Fork-owned serialized names should avoid upstream collisions.
 
-Use Shine-specific prefixes for:
+Use SS14-ART-CORE-specific prefixes for:
 
 - prototype IDs;
 - CVars;

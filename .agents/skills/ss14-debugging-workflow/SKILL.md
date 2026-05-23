@@ -1,6 +1,6 @@
 ---
 name: ss14-debugging-workflow
-description: Debugging workflow for SS14 Shine work, including ViewVariables, quickinspect, console commands, fake lag, logs, breakpoints, tests, run configurations, YAML linter, lobby testing, and performance debugging.
+description: Debugging workflow for SS14 SS14-ART-CORE work, including ViewVariables, quickinspect, console commands, fake lag, logs, breakpoints, tests, run configurations, YAML linter, lobby testing, and performance debugging.
 ---
 
 # SS14 Debugging Workflow

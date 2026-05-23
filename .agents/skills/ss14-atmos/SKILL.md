@@ -1,14 +1,14 @@
 ---
 name: ss14-atmos
-description: Atmospherics guidance for SS14 Shine work, including gas simulation, pipes, vents, scrubbers, air alarms, mapping atmos, flow/reaction design, performance, and why most atmos logic is authoritative/server-side rather than predicted.
+description: Atmospherics guidance for SS14 SS14-ART-CORE work, including gas simulation, pipes, vents, scrubbers, air alarms, mapping atmos, flow/reaction design, performance, and why most atmos logic is authoritative/server-side rather than predicted.
 ---
 
 # SS14 Atmos
 
 ## Placement
 
-- Most atmos simulation is server-authoritative and belongs in `Content.Server/_sh`.
-- Shared data/events may live in `Content.Shared/_sh` when UI, prediction-adjacent data, or prototypes need it.
+- Most atmos simulation is server-authoritative and belongs in `Content.Server/_Art`.
+- Shared data/events may live in `Content.Shared/_Art` when UI, prediction-adjacent data, or prototypes need it.
 - Client code is presentation only.
 
 ## Rules

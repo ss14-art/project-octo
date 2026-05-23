@@ -1,6 +1,6 @@
 # Sprite Resource Checklist
 
-- New Shine sprites under `Resources/Textures/_sh`.
+- New SS14-ART-CORE sprites under `Resources/Textures/_Art`.
 - RSI metadata includes license and copyright.
 - State names match YAML references.
 - JSON formatting is readable.

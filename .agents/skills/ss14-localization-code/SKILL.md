@@ -1,6 +1,6 @@
 ---
 name: ss14-localization-code
-description: C# localization guidance for Shine Project SS14 work. Use when adding popups, examine text, UI labels, admin/player messages, component-backed localization IDs, Loc.GetString calls, or entity grammar in code.
+description: C# localization guidance for SS14-ART-CORE SS14 work. Use when adding popups, examine text, UI labels, admin/player messages, component-backed localization IDs, Loc.GetString calls, or entity grammar in code.
 ---
 
 # SS14 Localization Code

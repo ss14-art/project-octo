@@ -1,6 +1,6 @@
 ---
 name: ss14-npc-ai
-description: NPC and AI guidance for SS14 Shine work, including blackboards, tasks, planning, pathfinding, collision avoidance, updates, behavior reuse, and data-driven NPC prototypes.
+description: NPC and AI guidance for SS14 SS14-ART-CORE work, including blackboards, tasks, planning, pathfinding, collision avoidance, updates, behavior reuse, and data-driven NPC prototypes.
 ---
 
 # SS14 NPC AI

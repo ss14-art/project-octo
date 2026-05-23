@@ -1,6 +1,6 @@
 ---
 name: ss14-prediction
-description: Prediction guidance for Shine Project SS14 work. Use when player actions should feel immediate, when touching shared systems, networked components, predicted popups/audio/spawn/delete, predicted BUI messages, or misprediction debugging.
+description: Prediction guidance for SS14-ART-CORE SS14 work. Use when player actions should feel immediate, when touching shared systems, networked components, predicted popups/audio/spawn/delete, predicted BUI messages, or misprediction debugging.
 ---
 
 # SS14 Prediction

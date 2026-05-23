@@ -1,6 +1,6 @@
 ---
 name: ss14-ecs-systems
-description: EntitySystem guidance for Shine Project SS14 work. Use when adding or reviewing systems, system dependencies, event subscriptions, public APIs, Try/Can/Do flow, shared/server/client splits, or component mutation methods.
+description: EntitySystem guidance for SS14-ART-CORE SS14 work. Use when adding or reviewing systems, system dependencies, event subscriptions, public APIs, Try/Can/Do flow, shared/server/client splits, or component mutation methods.
 ---
 
 # SS14 ECS Systems

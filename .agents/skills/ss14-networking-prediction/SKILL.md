@@ -16,7 +16,7 @@ Make new interactive gameplay predicted when feasible. If prediction is impossib
 
 ## Component State
 
-- Shared networked components live in `Content.Shared/_sh`.
+- Shared networked components live in `Content.Shared/_Art`.
 - Use `[NetworkedComponent]` only on shared components.
 - Prefer `[AutoGenerateComponentState]` and `[AutoNetworkedField]`.
 - Dirty every changed networked field.

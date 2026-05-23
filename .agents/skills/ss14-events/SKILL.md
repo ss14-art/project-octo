@@ -1,6 +1,6 @@
 ---
 name: ss14-events
-description: Event guidance for Shine Project SS14 ECS work. Use when creating, subscribing to, raising, reviewing, or replacing local events, broadcast events, cancellable events, handled events, network events, and method-event-like flows.
+description: Event guidance for SS14-ART-CORE SS14 ECS work. Use when creating, subscribing to, raising, reviewing, or replacing local events, broadcast events, cancellable events, handled events, network events, and method-event-like flows.
 ---
 
 # SS14 Events

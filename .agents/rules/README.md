@@ -1,11 +1,11 @@
-# Shine Agent Rules
+# SS14-ART-CORE Agent Rules
 
-This directory is the canonical rule layer for AI agents and review bots in the Shine SS14 fork.
+This directory is the canonical rule layer for AI agents and review bots in the SS14-ART-CORE SS14 fork.
 
 Load these before code changes:
 
-- `shine-hard-guardrails.md`
-- `shine-upstream-edit-markers.md`
+- `ss14-art-hard-guardrails.md`
+- `ss14-art-upstream-edit-markers.md`
 - `ss14-skill-preflight-and-refresh.md`
 - `ss14-code-placement.md`
 - `ss14-csharp-style.md`
@@ -17,7 +17,7 @@ Load these before code changes:
 - `ss14-netcode-security.md`
 - `ss14-prototype-yaml.md`
 - `ss14-assets-attribution.md`
-- `shine-review-bot-guidelines.md`
+- `ss14-art-review-bot-guidelines.md`
 - `ss14-style-localization.md`
 - `ss14-review-checklist.md`
 - `wizden-docs-routing.md`

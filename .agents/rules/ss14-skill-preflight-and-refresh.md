@@ -4,7 +4,7 @@ Before changing code, identify the affected area and load the smallest relevant 
 
 ## Always Start With
 
-- `shine-project`
+- `ss14-art-core`
 - `ss14-ai-workflow`
 - `ss14-code-style`
 - `ss14-naming-conventions`

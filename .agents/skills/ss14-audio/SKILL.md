@@ -1,13 +1,13 @@
 ---
 name: ss14-audio
-description: Audio guidance for SS14 Shine work, including SoundSpecifier, sound collections, predicted audio, MIDI/soundfonts, resource placement, localization-adjacent feedback, and avoiding duplicated or hardcoded sound playback.
+description: Audio guidance for SS14 SS14-ART-CORE work, including SoundSpecifier, sound collections, predicted audio, MIDI/soundfonts, resource placement, localization-adjacent feedback, and avoiding duplicated or hardcoded sound playback.
 ---
 
 # SS14 Audio
 
 ## Rules
 
-- Put new Shine audio under `Resources/Audio/_sh`.
+- Put new SS14-ART-CORE audio under `Resources/Audio/_Art`.
 - Use `SoundSpecifier`; prefer `SoundCollectionSpecifier` for reusable sets.
 - Do not hardcode sound paths in gameplay logic when a data field or prototype can configure them.
 - Use `SharedAudioSystem.PlayPredicted` in predicted paths.

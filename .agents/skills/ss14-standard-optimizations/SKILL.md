@@ -1,6 +1,6 @@
 ---
 name: ss14-standard-optimizations
-description: Performance and allocation guidance for Shine Project SS14 work. Use when touching Update loops, hot events, entity queries, networking Dirty calls, lambdas, allocations, collections, physics/atmos loops, or high-frequency UI/rendering code.
+description: Performance and allocation guidance for SS14-ART-CORE SS14 work. Use when touching Update loops, hot events, entity queries, networking Dirty calls, lambdas, allocations, collections, physics/atmos loops, or high-frequency UI/rendering code.
 ---
 
 # SS14 Standard Optimizations

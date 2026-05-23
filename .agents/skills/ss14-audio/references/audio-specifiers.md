@@ -8,4 +8,4 @@ Prefer:
 - data fields for feature-specific sounds;
 - prototype configuration over hardcoded paths.
 
-Put Shine audio under `Resources/Audio/_sh`.
+Put SS14-ART-CORE audio under `Resources/Audio/_Art`.

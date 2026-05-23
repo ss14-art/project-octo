@@ -1,6 +1,6 @@
 ---
 name: ss14-ecs-entities
-description: Entity API guidance for Shine Project SS14 work. Use when passing EntityUid, Entity generic pairs, optional entity references, NetEntity conversion, Resolve/TryComp usage, entity spawning, deletion, or entity lifetime handling.
+description: Entity API guidance for SS14-ART-CORE SS14 work. Use when passing EntityUid, Entity generic pairs, optional entity references, NetEntity conversion, Resolve/TryComp usage, entity spawning, deletion, or entity lifetime handling.
 ---
 
 # SS14 ECS Entities

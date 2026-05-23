@@ -6,7 +6,7 @@ Use SS14 order:
 - type: entity
   abstract: true
   parent: BaseItem
-  id: ShineExample
+  id: ArtCoreExample
   name: example
   components:
   - type: Sprite

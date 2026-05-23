@@ -14,5 +14,5 @@
 
 ## Examples
 
-- `shine-device-popup-no-power`
-- `comp-shine-widget-examine-charged`
+- `art-core-device-popup-no-power`
+- `comp-art-core-widget-examine-charged`

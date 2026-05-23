@@ -12,4 +12,4 @@ This includes:
 - reagent and marking names;
 - guidebook text.
 
-Shine-specific strings live under `Resources/Locale/en-US/_sh`.
+SS14-ART-CORE-specific strings live under `Resources/Locale/en-US/_Art`.

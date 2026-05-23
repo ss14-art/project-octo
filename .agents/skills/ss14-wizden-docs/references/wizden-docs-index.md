@@ -1,8 +1,8 @@
-# WizDen Docs Index For Shine Agents
+# WizDen Docs Index For SS14-ART-CORE Agents
 
-Local docs root: `D:\.avid\docs\src\en`.
+Local docs root: `@docs\src\en`.
 
-Use this as the curated routing map for the docs most often needed by code agents. Read the named local document before changing the matching subsystem. If the document is stale, follow current repo code and Shine rules.
+Use this as the curated routing map for the docs most often needed by code agents. Read the named local document before changing the matching subsystem. If the document is stale, follow current repo code and SS14-ART-CORE rules.
 
 For the complete local docs snapshot, including community, server-hosting, staff, admin, engine-development, and meeting-note documents not listed below, use `wizden-docs-full-catalog.md`.
 
@@ -19,7 +19,7 @@ For the complete local docs snapshot, including community, server-hosting, staff
 - `general-development/tips/config-file-reference.md`: TOML basics, CVars, and config specification methods.
 - `general-development/tips/debugging-tools.md`: VV, dev window, tests, scripting, console usage, run configs, performance debugging, external tools.
 - `general-development/tips/forking.md`: fork isolation, licensing, code organization, namespaced serializable types/prototypes/CVars, DB layout.
-- `general-development/tips/prs-with-engine-changes.md`: engine submodule workflow and engine-change PR expectations. For Shine, engine edits are escalation-only.
+- `general-development/tips/prs-with-engine-changes.md`: engine submodule workflow and engine-change PR expectations. For SS14-ART-CORE, engine edits are escalation-only.
 - `general-development/tips/troubleshooting-faq.md`: client/server troubleshooting.
 - `general-development/tips/writing-guidebook-entries.md`: guidebook controls, entries, IDs, priority, children, integration, and best practices.
 - `general-development/tips/yaml-crash-course.md`: YAML scalar/list/dictionary/nesting basics.

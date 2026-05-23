@@ -1,6 +1,6 @@
 ---
 name: ss14-ui-bui
-description: Bound User Interface guidance for SS14 Shine work. Use for BUI state, messages, predicted BUI interactions, component-backed UI, server validation, UI update methods, and separating BUI from XAML/EUI guidance.
+description: Bound User Interface guidance for SS14 SS14-ART-CORE work. Use for BUI state, messages, predicted BUI interactions, component-backed UI, server validation, UI update methods, and separating BUI from XAML/EUI guidance.
 ---
 
 # SS14 UI BUI
@@ -20,9 +20,9 @@ Use this skill only for Bound User Interfaces. For XAML layout/style, use `ss14-
 
 ## Placement
 
-- Shared BUI state/message types: `Content.Shared/_sh`.
-- Server BUI handling: `Content.Server/_sh`.
-- Client window/controller code: `Content.Client/_sh`.
+- Shared BUI state/message types: `Content.Shared/_Art`.
+- Server BUI handling: `Content.Server/_Art`.
+- Client window/controller code: `Content.Client/_Art`.
 
 ## Bundled References
 

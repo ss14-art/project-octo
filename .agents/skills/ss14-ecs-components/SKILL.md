@@ -1,6 +1,6 @@
 ---
 name: ss14-ecs-components
-description: Component-specific ECS guidance for Shine Project SS14 work. Use when adding, moving, networking, serializing, reviewing, or refactoring components, DataFields, access restrictions, ProtoId fields, and component examples.
+description: Component-specific ECS guidance for SS14-ART-CORE SS14 work. Use when adding, moving, networking, serializing, reviewing, or refactoring components, DataFields, access restrictions, ProtoId fields, and component examples.
 ---
 
 # SS14 ECS Components
@@ -12,7 +12,7 @@ Components are data. Systems own behavior.
 1. Open `references/component-checklist.md`.
 2. Open `references/datafield-and-protoid-style.md`.
 3. Open `references/component-networking.md` if the component is shared/networked.
-4. Put new Shine components under the relevant `_sh` assembly path.
+4. Put new SS14-ART-CORE components under the relevant `_Art` assembly path.
 
 ## Rules
 

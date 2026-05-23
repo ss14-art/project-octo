@@ -1,6 +1,6 @@
 ---
 name: ss14-porting-and-licensing
-description: Porting, attribution, fork isolation, upstream merge, and license guidance for Shine Project. Use before importing code/assets from WizDen, Delta-V, other SS14 forks, tgstation, assets, or external repositories, and before modifying upstream files.
+description: Porting, attribution, fork isolation, upstream merge, and license guidance for SS14-ART-CORE. Use before importing code/assets from WizDen, Delta-V, other SS14 forks, tgstation, assets, or external repositories, and before modifying upstream files.
 ---
 
 # SS14 Porting And Licensing
@@ -14,15 +14,15 @@ description: Porting, attribution, fork isolation, upstream merge, and license g
 
 ## Fork Isolation
 
-- Put new Shine code/assets under `_sh`.
-- Namespace serialized types and prototype IDs with a Shine prefix.
-- Avoid changing upstream files. If required, use tight `shine-edit` markers.
-- Preserve path similarity under `_sh` so upstream equivalents are easy to compare.
+- Put new SS14-ART-CORE code/assets under `_Art`.
+- Namespace serialized types and prototype IDs with a SS14-ART-CORE prefix.
+- Avoid changing upstream files. If required, use tight `ss14-art-edit` markers.
+- Preserve path similarity under `_Art` so upstream equivalents are easy to compare.
 
 ## Database Porting
 
 - Avoid modifying upstream tables.
-- Prefer one-to-one fork-owned tables for Shine-only data.
+- Prefer one-to-one fork-owned tables for SS14-ART-CORE-only data.
 - Namespace migrations.
 - Test SQLite and Postgres paths when persistence changes.
 

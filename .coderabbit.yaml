@@ -1,7 +1,7 @@
 language: "en-US"
 
 tone_instructions: |
-  Strict Shine SS14 fork reviewer. Be direct, concrete, and low-noise. Treat .agents/rules as canonical and avoid unrelated style churn.
+  Strict SS14-ART-CORE SS14 fork reviewer. Be direct, concrete, and low-noise. Treat .agents/rules as canonical and avoid unrelated style churn.
 
 reviews:
   profile: "assertive"
@@ -18,29 +18,29 @@ reviews:
         Codex bridge files must route back to .agents and must not introduce policy that conflicts with .agents/rules.
     - path: "RobustToolbox/**"
       instructions: |
-        RobustToolbox is read-only for Shine agents. Do not suggest direct engine edits unless the PR is explicitly an approved engine escalation.
+        RobustToolbox is read-only for SS14-ART-CORE agents. Do not suggest direct engine edits unless the PR is explicitly an approved engine escalation.
     - path: "Content.Shared/**"
       instructions: |
-        Check prediction first. New Shine code should be under Content.Shared/_sh when shared/predicted.
+        Check prediction first. New SS14-ART-CORE code should be under Content.Shared/_Art when shared/predicted.
         Networked components must be shared, use AutoGenerateComponentState/AutoNetworkedField where possible, and dirty changed fields.
     - path: "Content.Server/**"
       instructions: |
-        Check server authority and validation of client-origin actions. New Shine code belongs under Content.Server/_sh.
+        Check server authority and validation of client-origin actions. New SS14-ART-CORE code belongs under Content.Server/_Art.
     - path: "Content.Client/**"
       instructions: |
-        Client code is presentation/prediction support, not authority. New Shine code belongs under Content.Client/_sh.
+        Client code is presentation/prediction support, not authority. New SS14-ART-CORE code belongs under Content.Client/_Art.
     - path: "Resources/**"
       instructions: |
-        Check prototype/YAML style, localization, attribution, and _sh placement for Shine resources.
-        Player-facing strings must be localized under Resources/Locale/en-US/_sh when Shine-specific.
+        Check prototype/YAML style, localization, attribution, and _Art placement for SS14-ART-CORE resources.
+        Player-facing strings must be localized under Resources/Locale/en-US/_Art when SS14-ART-CORE-specific.
     - path: "**/*.cs"
       instructions: |
         Check SS14 ECS style: data-only components, behavior in systems, Entity<T?> APIs with Resolve, On/Try/Can/Do method flow, no magic IDs, no duplicate mechanics.
-        Any non-_sh file change must include a narrow shine-edit marker block.
+        Any non-_Art file change must include a narrow ss14-art-edit marker block.
     - path: "**/*.yml"
       instructions: |
-        Check SS14 YAML ordering and indentation. Prototype IDs should be namespaced for Shine where fork-owned.
-        Any non-_sh file change must include native shine-edit marker comments.
+        Check SS14 YAML ordering and indentation. Prototype IDs should be namespaced for SS14-ART-CORE where fork-owned.
+        Any non-_Art file change must include native ss14-art-edit marker comments.
     - path: "**/*.ftl"
       instructions: |
         Check kebab-case localization IDs, subsystem scoping, no duplicate generic IDs, and Fluent variables/functions instead of concatenated grammar.

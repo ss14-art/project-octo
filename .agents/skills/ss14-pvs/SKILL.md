@@ -1,6 +1,6 @@
 ---
 name: ss14-pvs
-description: PVS-specific networking guidance for Shine Project SS14 work. Use when dealing with Potentially Visible Set, visibility overrides, nullspace, owner-only data, hidden role data, session-specific networking, cameras, or data leakage risk.
+description: PVS-specific networking guidance for SS14-ART-CORE SS14 work. Use when dealing with Potentially Visible Set, visibility overrides, nullspace, owner-only data, hidden role data, session-specific networking, cameras, or data leakage risk.
 ---
 
 # SS14 PVS

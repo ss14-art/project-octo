@@ -92,7 +92,7 @@ def build_catalog(docs_root: Path) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--docs-root", default=r"D:\.avid\docs\src\en")
+    parser.add_argument("--docs-root", default=r"@docs\src\en")
     parser.add_argument("--output", default="references/wizden-docs-full-catalog.md")
     args = parser.parse_args()
 

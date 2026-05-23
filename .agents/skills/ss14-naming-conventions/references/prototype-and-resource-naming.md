@@ -9,5 +9,5 @@
 ## Resources
 
 - Keep paths lowercase-ish and subsystem grouped where local patterns do.
-- Keep Shine files under `_sh`.
+- Keep SS14-ART-CORE files under `_Art`.
 - Preserve RSI state names referenced by prototypes.

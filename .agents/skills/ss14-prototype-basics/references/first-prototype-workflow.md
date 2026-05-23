@@ -7,4 +7,4 @@
 5. Add assets with attribution if needed.
 6. Run resource validation.
 
-For Shine, place the prototype under `_sh`.
+For SS14-ART-CORE, place the prototype under `_Art`.

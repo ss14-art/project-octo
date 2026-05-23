@@ -30,7 +30,7 @@
 - Use kebab-case localization IDs, scoped by subsystem.
 - Prefer `Loc.GetString(id, ("arg", value))` over concatenation.
 - Use Fluent entity helpers such as `THE`, `INDEFINITE`, `SUBJECT`, `OBJECT`, `POSS-ADJ`, and conjugation helpers when sentence grammar depends on entities.
-- Put Shine FTL under `Resources/Locale/en-US/_sh/...`.
+- Put SS14-ART-CORE FTL under `Resources/Locale/en-US/_Art/...`.
 
 ## YAML
 

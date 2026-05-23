@@ -5,7 +5,7 @@ Treat localization as mandatory work for gameplay, UI, admin-facing, and prototy
 ## Required
 
 - Localize every player-facing string.
-- Add or update FTL in `Resources/Locale/en-US/_sh` for Shine-specific text.
+- Add or update FTL in `Resources/Locale/en-US/_Art` for SS14-ART-CORE-specific text.
 - Use feature-scoped `kebab-case` keys.
 - Store reusable localization keys in data as `LocId` when local patterns support it.
 

@@ -7,20 +7,20 @@
 - `Content.Client`: rendering, XAML/BUI client windows, visualizers, overlays, input UI, client-only presentation.
 - `Resources`: prototypes, maps, textures, audio, localization, guidebook data.
 - `Content.Tests` and `Content.IntegrationTests`: focused validation.
-- `RobustToolbox`: read-only for Shine agents.
+- `RobustToolbox`: read-only for SS14-ART-CORE agents.
 
-## Shine Placement
+## SS14-ART-CORE Placement
 
-New Shine code must use `_sh` path segments:
+New SS14-ART-CORE code must use `_Art` path segments:
 
-- `Content.Shared/_sh/<Subsystem>/...`
-- `Content.Server/_sh/<Subsystem>/...`
-- `Content.Client/_sh/<Subsystem>/...`
-- `Resources/Prototypes/_sh/<Subsystem>/...`
-- `Resources/Locale/en-US/_sh/<Subsystem>/...`
+- `Content.Shared/_Art/<Subsystem>/...`
+- `Content.Server/_Art/<Subsystem>/...`
+- `Content.Client/_Art/<Subsystem>/...`
+- `Resources/Prototypes/_Art/<Subsystem>/...`
+- `Resources/Locale/en-US/_Art/<Subsystem>/...`
 
-Preserve SS14 folder semantics under `_sh`: `Components`, `EntitySystems`, `UI`, `Visualizers`, `Prototypes`, etc.
+Preserve SS14 folder semantics under `_Art`: `Components`, `EntitySystems`, `UI`, `Visualizers`, `Prototypes`, etc.
 
 ## Upstream Files
 
-Only touch non-`_sh` files when integration requires it. Keep the diff narrow and apply `shine-edit` markers around the exact changed lines.
+Only touch non-`_Art` files when integration requires it. Keep the diff narrow and apply `ss14-art-edit` markers around the exact changed lines.

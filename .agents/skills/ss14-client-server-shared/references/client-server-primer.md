@@ -12,6 +12,6 @@ Server code is authoritative. It owns persistence, final validation, and server-
 
 Client code displays state and handles UI/visual presentation. It cannot be trusted for gameplay authority.
 
-## Shine Placement
+## SS14-ART-CORE Placement
 
-Use `_sh` under each assembly for new Shine code.
+Use `_Art` under each assembly for new SS14-ART-CORE code.

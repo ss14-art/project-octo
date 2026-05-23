@@ -1,6 +1,6 @@
 ---
 name: ss14-netcode
-description: Netcode guidance for Shine Project SS14 work. Use when adding or reviewing network events, NetEntity conversions, replicated state, component states, client/server request handling, session-specific data, and shared network payloads.
+description: Netcode guidance for SS14-ART-CORE SS14 work. Use when adding or reviewing network events, NetEntity conversions, replicated state, component states, client/server request handling, session-specific data, and shared network payloads.
 ---
 
 # SS14 Netcode

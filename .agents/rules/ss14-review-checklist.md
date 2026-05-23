@@ -1,10 +1,10 @@
 # SS14 Review Checklist
 
-Review AI-generated Shine changes against this list.
+Review AI-generated SS14-ART-CORE changes against this list.
 
 - No `RobustToolbox/**` modifications.
-- New Shine code lives under `_sh`.
-- Any non-`_sh` file change has a tight `shine-edit` marker block.
+- New SS14-ART-CORE code lives under `_Art`.
+- Any non-`_Art` file change has a tight `ss14-art-edit` marker block.
 - Code is modular, data-driven, and does not duplicate an existing mechanic.
 - Component data stays data-only; behavior is in systems.
 - Shared/server/client placement matches prediction and security needs.

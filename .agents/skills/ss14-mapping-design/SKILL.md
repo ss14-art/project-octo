@@ -1,6 +1,6 @@
 ---
 name: ss14-mapping-design
-description: Mapping and game design guidance for Shine Project SS14 work, including maps, dungeons, departments, round flow, antagonists, species, accessibility, design proposals, game-area design docs, and player experience review.
+description: Mapping and game design guidance for SS14-ART-CORE SS14 work, including maps, dungeons, departments, round flow, antagonists, species, accessibility, design proposals, game-area design docs, and player experience review.
 ---
 
 # SS14 Mapping Design
@@ -8,7 +8,7 @@ description: Mapping and game design guidance for Shine Project SS14 work, inclu
 ## Mapping
 
 - Follow mapping standards and checklist docs.
-- Keep map content using existing prototypes unless Shine-specific content belongs under `_sh`.
+- Keep map content using existing prototypes unless SS14-ART-CORE-specific content belongs under `_Art`.
 - Validate atmos, power, cameras, telecoms, cargo, evac, arrivals, docking, and spawn points.
 - Check missing prototypes and map load failures.
 

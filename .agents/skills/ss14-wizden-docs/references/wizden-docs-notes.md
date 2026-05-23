@@ -1,6 +1,6 @@
-# WizDen Docs Notes For Shine Skills
+# WizDen Docs Notes For SS14-ART-CORE Skills
 
-These are distilled notes from the local WizDen docs. They are intentionally shorter than the docs and tuned for Shine code review.
+These are distilled notes from the local WizDen docs. They are intentionally shorter than the docs and tuned for SS14-ART-CORE code review.
 
 ## Fork Work
 
@@ -12,7 +12,7 @@ These are distilled notes from the local WizDen docs. They are intentionally sho
 - Test DB changes on SQLite and Postgres.
 - Licenses matter for code and assets; check source, commit, author, license, and attribution.
 
-Shine-specific override: new Shine code goes under `_sh`; upstream-file edits need `shine-edit` markers; `RobustToolbox/**` is read-only.
+SS14-ART-CORE-specific override: new SS14-ART-CORE code goes under `_Art`; upstream-file edits need `ss14-art-edit` markers; `RobustToolbox/**` is read-only.
 
 ## Code Organization
 
@@ -21,7 +21,7 @@ Shine-specific override: new Shine code goes under `_sh`; upstream-file edits ne
 - `Content.Client` is presentation, visualizers, UI, and client-only behavior.
 - Resources include prototypes, maps, textures, audio, localization, guidebook.
 - Organize game code by subsystem, not "misc".
-- Under `_sh`, preserve this organization so future upstream comparison remains easy.
+- Under `_Art`, preserve this organization so future upstream comparison remains easy.
 
 ## ECS
 
@@ -67,7 +67,7 @@ Shine-specific override: new Shine code goes under `_sh`; upstream-file edits ne
 - Use Fluent variables instead of concatenation.
 - Use entity grammar helpers where appropriate.
 - Localization IDs are kebab-case and subsystem-scoped.
-- Put Shine FTL under `Resources/Locale/en-US/_sh`.
+- Put SS14-ART-CORE FTL under `Resources/Locale/en-US/_Art`.
 
 ## Prediction And Networking
 

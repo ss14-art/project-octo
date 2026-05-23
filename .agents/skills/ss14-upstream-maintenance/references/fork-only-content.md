@@ -1,12 +1,12 @@
 # Fork Only Content
 
-New Shine code/resources belong under `_sh`.
+New SS14-ART-CORE code/resources belong under `_Art`.
 
 Examples:
 
-- `Content.Shared/_sh/Feature/...`
-- `Content.Server/_sh/Feature/...`
-- `Content.Client/_sh/Feature/...`
-- `Resources/Prototypes/_sh/Feature/...`
+- `Content.Shared/_Art/Feature/...`
+- `Content.Server/_Art/Feature/...`
+- `Content.Client/_Art/Feature/...`
+- `Resources/Prototypes/_Art/Feature/...`
 
-Do not place new Shine mechanics in upstream folders for convenience.
+Do not place new SS14-ART-CORE mechanics in upstream folders for convenience.

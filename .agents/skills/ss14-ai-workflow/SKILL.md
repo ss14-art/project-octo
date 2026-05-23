@@ -1,6 +1,6 @@
 ---
 name: ss14-ai-workflow
-description: Preflight, implementation, and self-review workflow for AI agents working on Shine Project SS14 code. Use when planning or making any repository change, reviewing PRs, hardening instructions, or deciding which .agents skills/rules apply.
+description: Preflight, implementation, and self-review workflow for AI agents working on SS14-ART-CORE SS14 code. Use when planning or making any repository change, reviewing PRs, hardening instructions, or deciding which .agents skills/rules apply.
 ---
 
 # SS14 AI Workflow
@@ -9,7 +9,7 @@ Use this skill to keep agent work boring, narrow, and reviewable.
 
 ## Workflow
 
-1. Load `shine-project`.
+1. Load `ss14-art-core`.
 2. Read subtree `AGENTS.md` files in every edited area.
 3. Search for existing systems, components, prototypes, localization IDs, tests, and configs.
 4. Choose the smallest domain skills for the change.

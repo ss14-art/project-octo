@@ -10,4 +10,4 @@
 
 - Use kebab-case.
 - Use variables and entity grammar helpers.
-- Keep Shine strings under `_sh` locale.
+- Keep SS14-ART-CORE strings under `_Art` locale.

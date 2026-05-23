@@ -8,4 +8,4 @@ Before importing:
 - license;
 - asset license if different;
 - attribution requirement;
-- compatibility with Shine repository license.
+- compatibility with SS14-ART-CORE repository license.

@@ -16,6 +16,6 @@
 - adding hardcoded one-off branches;
 - silently copying stale upstream examples.
 
-## Shine Rule
+## SS14-ART-CORE Rule
 
 AI output is a draft until verified against local code, `.agents/rules`, and focused validation.

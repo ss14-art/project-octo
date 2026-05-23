@@ -1,6 +1,6 @@
 ---
 name: ss14-localization-strings
-description: FTL string guidance for Shine Project SS14 work. Use when adding or reviewing localization files, keys, selectors, entity arguments, prototype names/descriptions, marking names, reagent names, UI strings, and translation-ready text.
+description: FTL string guidance for SS14-ART-CORE SS14 work. Use when adding or reviewing localization files, keys, selectors, entity arguments, prototype names/descriptions, marking names, reagent names, UI strings, and translation-ready text.
 ---
 
 # SS14 Localization Strings
@@ -17,5 +17,5 @@ FTL is gameplay-facing API. Name it and structure it carefully.
 ## Rules
 
 - Use kebab-case, subsystem-scoped IDs.
-- Put Shine strings under `Resources/Locale/en-US/_sh`.
+- Put SS14-ART-CORE strings under `Resources/Locale/en-US/_Art`.
 - Use variables/selectors/functions instead of prebuilt English sentences in code.

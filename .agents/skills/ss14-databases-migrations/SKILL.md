@@ -1,6 +1,6 @@
 ---
 name: ss14-databases-migrations
-description: Database and EF Core migration guidance for Shine Project SS14 work, including fork-owned tables, SQLite/Postgres compatibility, namespaced migrations, server database projects, and avoiding upstream table churn.
+description: Database and EF Core migration guidance for SS14-ART-CORE SS14 work, including fork-owned tables, SQLite/Postgres compatibility, namespaced migrations, server database projects, and avoiding upstream table churn.
 ---
 
 # SS14 Databases Migrations
@@ -8,7 +8,7 @@ description: Database and EF Core migration guidance for Shine Project SS14 work
 ## Rules
 
 - Avoid modifying upstream tables.
-- Prefer Shine-owned tables with one-to-one relations for fork-only data.
+- Prefer art-core-owned tables with one-to-one relations for fork-only data.
 - Namespace migrations and model types clearly.
 - Test SQLite and Postgres when schema or query behavior changes.
 - Keep persistence out of predicted simulation logic.
@@ -26,5 +26,5 @@ The repo uses EF Core 10 packages. Check `Directory.Packages.props` and existing
 ## Placement
 
 - Shared database models: database-specific shared project if existing pattern requires it.
-- Server persistence: `Content.Server.Database` or `Content.Server/_sh` according to local pattern.
+- Server persistence: `Content.Server.Database` or `Content.Server/_Art` according to local pattern.
 - Do not touch RobustToolbox persistence.

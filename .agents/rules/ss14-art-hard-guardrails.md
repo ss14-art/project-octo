@@ -1,11 +1,11 @@
-# Shine Hard Guardrails
+# SS14-ART-CORE Hard Guardrails
 
-These rules are non-negotiable for Shine Project work.
+These rules are non-negotiable for SS14-ART-CORE work.
 
 ## Absolute Rules
 
 - Do not edit `RobustToolbox/**`. Read it for context only. If an engine change seems required, stop and explain the required escalation.
-- New Shine-only code goes under a path segment named `_sh` unless a maintainer explicitly chooses a different fork-owned directory.
+- New SS14-ART-CORE-only code goes under a path segment named `_Art` unless a maintainer explicitly chooses a different fork-owned directory.
 - Do not add new mechanics by duplicating existing mechanics. Search first, extend or compose existing systems, and make the feature configurable through components, prototypes, CVars, or data definitions.
 - Do not hardcode prototype IDs, localization IDs, magic numbers, sound paths, sprite paths, or department/job names when a typed ID, `ProtoId<T>`, `SoundSpecifier`, `SpriteSpecifier`, CVar, data field, or prototype relation can express it.
 - Do not write "temporary" code, reflection hacks, static global state, one-off update loops, or server-only shortcuts for predicted gameplay.

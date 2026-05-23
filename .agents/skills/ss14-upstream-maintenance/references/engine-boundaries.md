@@ -1,6 +1,6 @@
 # Engine Boundaries
 
-Shine agents do not edit `RobustToolbox/**`.
+SS14-ART-CORE agents do not edit `RobustToolbox/**`.
 
 If an engine change appears necessary:
 

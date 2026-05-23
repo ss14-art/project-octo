@@ -1,7 +1,7 @@
 # Resources Map
 
-- Entity prototypes: `Resources/Prototypes/_sh`.
-- Locale: `Resources/Locale/en-US/_sh`.
-- Textures: `Resources/Textures/_sh`.
-- Audio: `Resources/Audio/_sh`.
-- Guidebook content: follow existing guidebook layout, prefer `_sh` for Shine-only entries.
+- Entity prototypes: `Resources/Prototypes/_Art`.
+- Locale: `Resources/Locale/en-US/_Art`.
+- Textures: `Resources/Textures/_Art`.
+- Audio: `Resources/Audio/_Art`.
+- Guidebook content: follow existing guidebook layout, prefer `_Art` for SS14-ART-CORE-only entries.

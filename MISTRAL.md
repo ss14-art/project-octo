@@ -1,5 +1,5 @@
-# Shine Project Mistral Adapter
+# SS14-ART-CORE Mistral Adapter
 
-Follow the canonical Shine instruction layer in `.agents/rules` and `.agents/skills`.
+Follow the canonical SS14-ART-CORE instruction layer in `.agents/rules` and `.agents/skills`.
 
-Do not edit `RobustToolbox/**`. Put new Shine code under `_sh`. Use `shine-edit` markers around any non-`_sh` changes. Keep SS14 code modular, predicted where possible, localized, typed, and reviewable.
+Do not edit `RobustToolbox/**`. Put new SS14-ART-CORE code under `_Art`. Use `ss14-art-edit` markers around any non-`_Art` changes. Keep SS14 code modular, predicted where possible, localized, typed, and reviewable.

@@ -1,6 +1,6 @@
 ---
 name: ss14-pvs-networking
-description: PVS and visibility guidance for SS14 Shine work, including Potentially Visible Set, session-specific networking, owner-only data, PVS overrides, nullspace entities, hidden information, and anti-cheat-sensitive prediction.
+description: PVS and visibility guidance for SS14 SS14-ART-CORE work, including Potentially Visible Set, session-specific networking, owner-only data, PVS overrides, nullspace entities, hidden information, and anti-cheat-sensitive prediction.
 ---
 
 # SS14 PVS Networking

@@ -3,8 +3,8 @@
 ## Safe
 
 - Add a hook call to fork-owned system.
-- Add a prototype include/reference for `_sh` content.
-- Add a localized entry for Shine-only content.
+- Add a prototype include/reference for `_Art` content.
+- Add a localized entry for SS14-ART-CORE-only content.
 
 ## Risky
 

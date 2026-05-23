@@ -11,6 +11,6 @@ Before implementation:
 
 Before final:
 
-- Check `_sh` placement.
-- Check marker blocks for non-`_sh` edits.
+- Check `_Art` placement.
+- Check marker blocks for non-`_Art` edits.
 - Check no duplicate mechanic was introduced.

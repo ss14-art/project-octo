@@ -1,6 +1,6 @@
 ---
 name: ss14-testing
-description: Test and validation guidance for Shine Project SS14 changes. Use when choosing build, YAML linter, unit, integration, database, prediction, or manual validation for code, prototypes, maps, resources, and review-bot changes.
+description: Test and validation guidance for SS14-ART-CORE SS14 changes. Use when choosing build, YAML linter, unit, integration, database, prediction, or manual validation for code, prototypes, maps, resources, and review-bot changes.
 ---
 
 # SS14 Testing

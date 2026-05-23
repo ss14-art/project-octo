@@ -8,4 +8,4 @@ A minimal SS14 feature usually has:
 - FTL for visible text;
 - tests or manual validation.
 
-For Shine, place new files under `_sh` and mark any non-`_sh` integration edit.
+For SS14-ART-CORE, place new files under `_Art` and mark any non-`_Art` integration edit.

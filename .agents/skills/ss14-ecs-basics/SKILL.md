@@ -1,6 +1,6 @@
 ---
 name: ss14-ecs-basics
-description: ECS guidance for SS14 components, entity systems, events, APIs, and data-only components. Use when adding or reviewing components, systems, events, entity queries, access restrictions, or gameplay logic in Shine Project.
+description: ECS guidance for SS14 components, entity systems, events, APIs, and data-only components. Use when adding or reviewing components, systems, events, entity queries, access restrictions, or gameplay logic in SS14-ART-CORE.
 ---
 
 # SS14 ECS Basics

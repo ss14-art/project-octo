@@ -1,11 +1,11 @@
 ---
 name: ss14-upstream-maintenance
-description: Upstream/fork maintenance guidance for Shine Project. Use when touching non-_sh files, reviewing upstream diffs, preserving path similarity, porting fork code, marking shine-edit blocks, or deciding whether an engine/content change is allowed.
+description: Upstream/fork maintenance guidance for SS14-ART-CORE. Use when touching non-_Art files, reviewing upstream diffs, preserving path similarity, porting fork code, marking ss14-art-edit blocks, or deciding whether an engine/content change is allowed.
 ---
 
 # SS14 Upstream Maintenance
 
-This skill protects Shine from painful upstream merges.
+This skill protects SS14-ART-CORE from painful upstream merges.
 
 ## Workflow
 
@@ -17,8 +17,8 @@ This skill protects Shine from painful upstream merges.
 ## Rules
 
 - Never edit `RobustToolbox`.
-- Prefer `_sh` fork-owned files.
-- Mark every non-`_sh` change with narrow `shine-edit` blocks.
+- Prefer `_Art` fork-owned files.
+- Mark every non-`_Art` change with narrow `ss14-art-edit` blocks.
 - Keep upstream diffs small and intentional.
 - Preserve upstream path similarity for ports so future merges and blame remain readable.
 - Do not use conflict-avoidance hacks to hide meaningful upstream behavior changes.
@@ -28,7 +28,7 @@ This skill protects Shine from painful upstream merges.
 Use native comments and keep the block as small as possible:
 
 ```csharp
-// shine-edit start: reason
+// ss14-art-edit start: reason
 CODE
-// shine-edit end
+// ss14-art-edit end
 ```

@@ -1,16 +1,16 @@
 ---
-name: shine-project
-description: Master workflow for working in the Shine Project SS14 fork. Use for any code, content, resource, test, review, or agent-instruction change in this repository, especially Content.Shared, Content.Server, Content.Client, Resources, .agents, CodeRabbit, and fork/upstream merge-sensitive work.
+name: ss14-art-core
+description: Master workflow for working in the SS14-ART-CORE SS14 fork. Use for any code, content, resource, test, review, or agent-instruction change in this repository, especially Content.Shared, Content.Server, Content.Client, Resources, .agents, CodeRabbit, and fork/upstream merge-sensitive work.
 ---
 
-# Shine Project
+# SS14-ART-CORE
 
-This is the root skill for Shine Project. Use it first, then load narrower SS14 skills only as needed.
+This is the root skill for SS14-ART-CORE. Use it first, then load narrower SS14 skills only as needed.
 
 ## Required Preflight
 
-1. Read `.agents/rules/shine-hard-guardrails.md`.
-2. Read `.agents/rules/shine-upstream-edit-markers.md`.
+1. Read `.agents/rules/ss14-art-hard-guardrails.md`.
+2. Read `.agents/rules/ss14-art-upstream-edit-markers.md`.
 3. Read `.agents/rules/ss14-skill-preflight-and-refresh.md`.
 4. Identify affected assemblies and load the matching skills.
 5. Search the repo for current patterns before coding.
@@ -18,18 +18,18 @@ This is the root skill for Shine Project. Use it first, then load narrower SS14 
 ## Bundled References
 
 - `references/preflight-checklist.md`: quick checklist before editing code, resources, tests, or agent instructions.
-- `references/shine-path-map.md`: where Shine-owned C#, YAML, FTL, assets, tests, and configs belong.
+- `references/ss14-art-path-map.md`: where art-core-owned C#, YAML, FTL, assets, tests, and configs belong.
 
 ## Hard Rules
 
 - Never edit `RobustToolbox/**`.
-- Put new Shine-only code under `_sh`.
-- Wrap every change outside `_sh` in a narrow marker block:
+- Put new SS14-ART-CORE-only code under `_Art`.
+- Wrap every change outside `_Art` in a narrow marker block:
 
 ```csharp
-// shine-edit start: reason
+// ss14-art-edit start: reason
 CODE
-// shine-edit end
+// ss14-art-edit end
 ```
 
 - Keep mechanics modular and data-driven.
@@ -43,7 +43,7 @@ Prefer this order:
 
 1. Understand existing implementation.
 2. Decide whether the change belongs in Shared, Server, Client, Resources, or tests.
-3. Add fork-only code under `_sh`.
+3. Add fork-only code under `_Art`.
 4. Touch upstream files only for integration points and mark them.
 5. Add localization and prototypes with namespaced IDs.
 6. Validate with the narrowest useful command.

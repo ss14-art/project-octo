@@ -6,4 +6,4 @@ When touching shaders or displacement maps:
 - keep parameters data-driven where possible;
 - verify asset paths and RSI load parameters;
 - test visually in-game when practical;
-- avoid changing global shader behavior for one Shine feature.
+- avoid changing global shader behavior for one SS14-ART-CORE feature.

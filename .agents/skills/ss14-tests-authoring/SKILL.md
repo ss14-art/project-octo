@@ -1,6 +1,6 @@
 ---
 name: ss14-tests-authoring
-description: Test authoring guidance for Shine Project SS14 work. Use when adding or reviewing content tests, integration tests, YAML/prototype validation, migration tests, prediction/netcode tests, or choosing what verification a PR needs.
+description: Test authoring guidance for SS14-ART-CORE SS14 work. Use when adding or reviewing content tests, integration tests, YAML/prototype validation, migration tests, prediction/netcode tests, or choosing what verification a PR needs.
 ---
 
 # SS14 Tests Authoring

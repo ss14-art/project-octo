@@ -1,6 +1,6 @@
 ---
 name: ss14-transform-physics
-description: Transform, coordinates, grids, maps, anchoring, fixtures, collision, joints, and physics guidance for Shine Project SS14 work. Use when changing movement, placement, anchoring, collision layers/masks, grid behavior, or map coordinates.
+description: Transform, coordinates, grids, maps, anchoring, fixtures, collision, joints, and physics guidance for SS14-ART-CORE SS14 work. Use when changing movement, placement, anchoring, collision layers/masks, grid behavior, or map coordinates.
 ---
 
 # SS14 Transform Physics

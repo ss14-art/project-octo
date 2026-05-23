@@ -1,13 +1,13 @@
 ---
 name: ss14-chemistry
-description: Chemistry guidance for SS14 Shine work, including reagents, reactions, metabolism, solution containers, reagent effects/conditions, entity solutions, and chemistry prototype localization.
+description: Chemistry guidance for SS14 SS14-ART-CORE work, including reagents, reactions, metabolism, solution containers, reagent effects/conditions, entity solutions, and chemistry prototype localization.
 ---
 
 # SS14 Chemistry
 
 ## Rules
 
-- Put new Shine chemistry prototypes under `Resources/Prototypes/_sh`.
+- Put new SS14-ART-CORE chemistry prototypes under `Resources/Prototypes/_Art`.
 - Keep reagent/reaction/metabolism behavior data-driven.
 - Use existing solution container APIs.
 - Be careful with predicted code that resolves solution entities leaving PVS.
