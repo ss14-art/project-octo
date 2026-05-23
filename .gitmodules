@@ -2,3 +2,10 @@
 	path = RobustToolbox
 	url = https://github.com/space-wizards/RobustToolbox.git
 	branch = master
+[submodule "RobustBook"]
+	path = docs
+	url = https://github.com/space-wizards/docs.git
+	branch = master
+[submodule "docs"]
+	path = docs
+	url = https://github.com/space-wizards/docs.git
