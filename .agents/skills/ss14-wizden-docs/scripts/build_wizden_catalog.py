@@ -90,13 +90,37 @@ def build_catalog(docs_root: Path) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+def find_project_root() -> Path:
+    """Find the project root by looking for common markers."""
+    current = Path(__file__).parent.resolve()
+    
+    # Идем вверх пока не найдем папку с docs и одним из маркеров
+    for parent in [current] + list(current.parents):
+        # Проверяем наличие docs папки
+        docs_path = parent / "docs"
+        if docs_path.exists() and docs_path.is_dir():
+            # Дополнительная проверка - наличие README.md или .git
+            if (parent / "README.md").exists() or (parent / ".git").exists():
+                return parent
+    
+    raise FileNotFoundError(
+        "Could not find project root with 'docs' directory. "
+        "Make sure you're running this script from within the space-station-14 repository."
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--docs-root", default=r"@docs\src\en")
+    parser.add_argument("--docs-root", help="Path to docs/src/en directory")
     parser.add_argument("--output", default="references/wizden-docs-full-catalog.md")
     args = parser.parse_args()
 
-    docs_root = Path(args.docs_root)
+    if args.docs_root:
+        docs_root = Path(args.docs_root)
+    else:
+        project_root = find_project_root()
+        docs_root = project_root / "docs" / "src" / "en"
+
     output = Path(args.output)
 
     if not docs_root.exists():
