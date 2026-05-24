@@ -1,4 +1,4 @@
-using Content.Client.Administration.UI.AdminAnnounce;
+using Content.Client.Administration.UI.AdminAnnounce; // Art-change
 using Content.Client.Eui;
 using Content.Shared.Administration;
 using Content.Shared.Eui;
@@ -14,7 +14,8 @@ namespace Content.Client.Administration.UI
         {
             _window = new AdminAnnounceWindow();
             _window.OnClose += () => SendMessage(new CloseEuiMessage());
-            _window.AnnounceButton.OnPressed += _ => 
+            // Art-changes start
+            _window.AnnounceButton.OnPressed += _ =>
             {
                 var announcement = AdminAnnounceHelpers.NormalizeText(Rope.Collapse(_window.Announcement.TextRope));
                 if (string.IsNullOrWhiteSpace(announcement))
@@ -38,5 +39,6 @@ namespace Content.Client.Administration.UI
 
         public override void Opened() => _window.OpenCentered();
         public override void Closed() => _window.Close();
+        // Art-changes end
     }
 }

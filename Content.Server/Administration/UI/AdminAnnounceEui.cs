@@ -1,26 +1,26 @@
 using Content.Server._Starlight.Administration.Systems; //Starlight
-using Content.Server.Administration.Logs;
+using Content.Server.Administration.Logs; // Art-change
 using Content.Server.Administration.Managers;
-using Content.Server.Chat; //Starlight
 using Content.Server.Chat.Managers;
 using Content.Server.Chat.Systems;
 using Content.Server.EUI;
 using Content.Shared.Administration;
-using Content.Shared.CCVar;
-using Content.Shared.Chat;
+using Content.Shared.CCVar; // Art-change
+using Content.Shared.Chat; // Art-change
 using Content.Shared.Eui;
-using Content.Shared.Database;
-using Robust.Shared.Audio;
-using Robust.Shared.Configuration;
-using Robust.Shared.ContentPack;
-using Robust.Shared.Map;
-using Robust.Shared.Player;
-using System.Linq;
+using Content.Shared.Database; // Art-change
+using Robust.Shared.Audio; // Art-change
+using Robust.Shared.Configuration; // Art-change
+using Robust.Shared.ContentPack; // Art-change
+using Robust.Shared.Map; // Art-change
+using Robust.Shared.Player; // Art-change
+using System.Linq; // Art-change
 
 namespace Content.Server.Administration.UI
 {
-    public sealed partial class AdminAnnounceEui : BaseEui
+    public sealed partial class AdminAnnounceEui : BaseEui // Art-change add partial
     {
+        // Art-changes start
         [Dependency] private IAdminManager _adminManager = default!;
         [Dependency] private IChatManager _chatManager = default!;
         [Dependency] private IConfigurationManager _cfg = default!;
@@ -28,6 +28,7 @@ namespace Content.Server.Administration.UI
         [Dependency] private IAdminLogManager _adminLogger = default!;
         [Dependency] private IEntityManager _entityManager = default!;
         [Dependency] private ISharedPlayerManager _playerManager = default!;
+        // Art-changes end
 
         private readonly ChatSystem _chatSystem;
         private readonly AutoDiscordLogSystem _autoLog; //Starlight
@@ -36,17 +37,20 @@ namespace Content.Server.Administration.UI
         {
             IoCManager.InjectDependencies(this);
 
+            // Art-change start
             var sysMan = IoCManager.Resolve<IEntitySystemManager>();
             _chatSystem = sysMan.GetEntitySystem<ChatSystem>();
+            // Art-change end
             _autoLog = sysMan.GetEntitySystem<AutoDiscordLogSystem>(); //Starlight
         }
 
-        public override EuiStateBase GetNewState() => new AdminAnnounceEuiState();
+        public override EuiStateBase GetNewState() => new AdminAnnounceEuiState(); // Art-change
 
         public override void HandleMessage(EuiMessageBase msg)
         {
             base.HandleMessage(msg);
 
+            // Art-changes start
             if (msg is not AdminAnnounceEuiMsg.DoAnnounce doAnnounce)
                 return;
 
@@ -137,8 +141,10 @@ namespace Content.Server.Administration.UI
 
             if (doAnnounce.CloseAfter)
                 Close();
+            // Art-changes end
         }
 
+        // Art-changes start
         private Filter GetPlayersOnMap(MapId mapId)
         {
             var filter = Filter.Empty();
@@ -153,5 +159,6 @@ namespace Content.Server.Administration.UI
             }
             return filter;
         }
+        // Art-changes end
     }
 }

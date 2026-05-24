@@ -3,6 +3,7 @@ using Robust.Shared.Serialization;
 
 namespace Content.Shared.Administration
 {
+    // Art-changes start
     public static class AdminAnnounceDefaults
     {
         public const string DefaultColorHex = "#1d8bad";
@@ -16,6 +17,7 @@ namespace Content.Shared.Administration
                 : DefaultColorHex;
         }
     }
+    // Art-changes end
 
     public enum AdminAnnounceType
     {
@@ -24,7 +26,7 @@ namespace Content.Shared.Administration
     }
 
     [Serializable, NetSerializable]
-    public sealed class AdminAnnounceEuiState : EuiStateBase;
+    public sealed class AdminAnnounceEuiState : EuiStateBase; // Art-change
 
     public static class AdminAnnounceEuiMsg
     {
@@ -35,6 +37,7 @@ namespace Content.Shared.Administration
             public string Announcer = default!;
             public string Announcement = default!;
             public AdminAnnounceType AnnounceType;
+            // Art-changes start
             public bool Global = true;
             public string ColorHex = AdminAnnounceDefaults.DefaultColorHex;
             public string SoundPath = AdminAnnounceDefaults.DefaultSoundPath;
@@ -82,5 +85,6 @@ namespace Content.Shared.Administration
 
             return $"{announcement}\n{Loc.GetString("admin-announce-sent-by")} {trimmedSender}";
         }
+        // Art-changes end
     }
 }

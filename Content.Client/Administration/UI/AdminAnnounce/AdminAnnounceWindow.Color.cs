@@ -1,4 +1,5 @@
-﻿using Content.Shared.Administration;
+﻿// This file is completely Art-change
+using Content.Shared.Administration;
 
 namespace Content.Client.Administration.UI.AdminAnnounce;
 
@@ -22,7 +23,7 @@ public sealed partial class AdminAnnounceWindow
             {
                 var hex = color.ToHexNoAlpha();
                 if (_currentHex == hex) return;
-                
+
                 _currentHex = hex;
                 UpdateColorPreview();
                 _paletteWindow.SetHexText(hex);
@@ -42,7 +43,7 @@ public sealed partial class AdminAnnounceWindow
 
     private void SyncPalette()
     {
-        if (_paletteWindow == null || _paletteWindow.Disposed || !_paletteWindow.IsOpen) 
+        if (_paletteWindow == null || _paletteWindow.Disposed || !_paletteWindow.IsOpen)
             return;
 
         _paletteWindow.UpdateDisplay(GetCurrentColor(), _currentHex);

@@ -1,3 +1,4 @@
+// This file is completely Art-change
 using Content.Shared.Administration;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;
@@ -50,7 +51,7 @@ public sealed partial class AdminAnnounceWindow
         {
             _previewStream = null;
         }
-        
+
         AnnounceButton.Disabled = string.IsNullOrWhiteSpace(Rope.Collapse(Announcement.TextRope));
 
         var type = (AdminAnnounceType?) AnnounceMethod.SelectedMetadata;
