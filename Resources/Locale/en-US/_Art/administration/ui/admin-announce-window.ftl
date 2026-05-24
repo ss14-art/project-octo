@@ -1,0 +1,15 @@
+admin-announce-global = Global
+admin-announce-global-tooltip = Send to all players on all maps
+admin-announce-palette-button = Palette
+admin-announce-hex = HEX
+admin-announce-hex-color = Color...
+admin-announce-sound-placeholder = Audio Path
+admin-announce-sender-placeholder = Sent by...
+admin-announce-sender-default = CentComm Operator
+admin-announce-enable-sender-tooltip = Enable sender signature
+admin-announce-sent-by = Sent by
+admin-announce-presets = Presets
+admin-announce-presets-wizard = Wizard
+admin-announce-presets-nuclear-operative = Nuclear Operative
+admin-announce-presets-central-command = Central Command
+admin-announce-presets-station = Station
