@@ -1,4 +1,4 @@
-﻿using Content.Client._OpenSpace;
+﻿using Content.Client._Art;
 using Content.Client._Starlight.Managers;
 using Content.Client.Administration.Managers;
 using Content.Client.Gameplay;

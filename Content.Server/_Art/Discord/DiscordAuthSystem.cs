@@ -1,7 +1,7 @@
 using Content.Server.GameTicking;
-using Content.Shared._OpenSpace.Discord;
+using Content.Shared._Art.Discord;
 
-namespace Content.Server._OpenSpace.Discord;
+namespace Content.Server._Art.Discord;
 
 public sealed class DiscordAuthSystem : EntitySystem
 {

@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Content.Server._OpenSpace;
+using Content.Server._Art;
 using Content.Shared._NullLink;
 using Robust.Server.Player;
 using Robust.Shared.Player;
@@ -15,30 +15,30 @@ public sealed class PlayerRolesReqManager : SharedPlayerRolesReqManager
     public override bool IsAllRolesAvailable(EntityUid uid)
         => _player.TryGetSessionByEntity(uid, out var session)
             && AllRoles is not null
-            && _discordOAuthManager.TryGetRoles(session, out var roles) // OpenSpace
-            && AllRoles.Roles.Any(roles.Contains); // OpenSpace
+            && _discordOAuthManager.TryGetRoles(session, out var roles) // SS14-Art
+            && AllRoles.Roles.Any(roles.Contains); // SS14-Art
 
     public override bool IsAllRolesAvailable(ICommonSession session)
         =>  AllRoles is not null
-            && _discordOAuthManager.TryGetRoles(session, out var roles) // OpenSpace
+            && _discordOAuthManager.TryGetRoles(session, out var roles) // SS14-Art
             && AllRoles.Roles.Any(roles.Contains);
 
     public override bool IsAnyRole(ICommonSession session, ulong[] roles)
         => AllRoles is not null
-            && _discordOAuthManager.TryGetRoles(session, out var userRoles) // OpenSpace
+            && _discordOAuthManager.TryGetRoles(session, out var userRoles) // SS14-Art
             && roles.Any(userRoles.Contains);
     public override bool IsMentor(EntityUid uid)
         => _player.TryGetSessionByEntity(uid, out var session)
             && _mentorReq is not null
-            && _discordOAuthManager.TryGetRoles(session, out var roles) // OpenSpace
+            && _discordOAuthManager.TryGetRoles(session, out var roles) // SS14-Art
             && _mentorReq.Roles.Any(roles.Contains);
     public override bool IsMentor(ICommonSession session)
         =>  _mentorReq is not null
-            && _discordOAuthManager.TryGetRoles(session, out var roles) // OpenSpace
+            && _discordOAuthManager.TryGetRoles(session, out var roles) // SS14-Art
             && _mentorReq.Roles.Any(roles.Contains);
     public override bool IsPeacefulBypass(EntityUid uid)
         => _player.TryGetSessionByEntity(uid, out var session)
             && _peacefulBypass is not null
-            && _discordOAuthManager.TryGetRoles(session, out var roles) // OpenSpace
+            && _discordOAuthManager.TryGetRoles(session, out var roles) // SS14-Art
             && _peacefulBypass.Roles.Any(roles.Contains);
 }

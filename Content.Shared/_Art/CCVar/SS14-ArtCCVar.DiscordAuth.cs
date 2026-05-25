@@ -1,9 +1,9 @@
 using Robust.Shared.Configuration;
 
-namespace Content.Shared._OpenSpace.CCVar;
+namespace Content.Shared._Art.CCVar;
 
 [CVarDefs]
-public sealed partial class OpenSpaceCCvar
+public sealed partial class SS14ArtCCvar
 {
     public static readonly CVarDef<string> AuthApiUrl =
         CVarDef.Create("discord_auth.url", "", CVar.SERVERONLY);

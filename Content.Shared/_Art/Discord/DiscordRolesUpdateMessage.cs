@@ -2,7 +2,7 @@ using Lidgren.Network;
 using Robust.Shared.Network;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared._OpenSpace.Discord;
+namespace Content.Shared._Art.Discord;
 
 public sealed class DiscordRolesUpdateMessage : NetMessage
 {

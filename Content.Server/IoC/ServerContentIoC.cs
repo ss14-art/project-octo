@@ -48,7 +48,7 @@ using Content.Server._NullLink.EventBus;
 using Content.Server._NullLink.PlayerData;
 using Content.Shared._NullLink;
 using Content.Server._Starlight.TextToSpeech;
-using Content.Server._OpenSpace;
+using Content.Server._Art;
 #endregion Nulllink
 
 namespace Content.Server.IoC;

@@ -1,11 +1,11 @@
 using System.Collections.Immutable;
 using System.Linq;
 using Content.Client.Popups;
-using Content.Shared._OpenSpace.Discord;
+using Content.Shared._Art.Discord;
 using Robust.Client.UserInterface;
 using Robust.Shared.Network;
 
-namespace Content.Client._OpenSpace;
+namespace Content.Client._Art;
 
 public sealed class ClientDiscordOAuthManager : IClientDiscordOAuthManager
 {

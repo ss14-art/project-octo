@@ -2,7 +2,7 @@ using Content.Server._NullLink;
 using Content.Server._NullLink.Core;
 using Content.Server._NullLink.EventBus;
 using Content.Server._NullLink.PlayerData;
-using Content.Server._OpenSpace;
+using Content.Server._Art;
 using Content.Server._Starlight.BugReports; // Staright
 using Content.Server._Starlight.TextToSpeech;
 using Content.Server.Acz;
@@ -169,8 +169,7 @@ namespace Content.Server.Entry
 			_preWrittenDocument.Initialize();
             //🌟Starlight🌟 end
 
-            // OpenSpace
-            _discordOAuthManager.Initialize();
+            _discordOAuthManager.Initialize(); // SS14-Art
         }
 
         public override void PostInit()

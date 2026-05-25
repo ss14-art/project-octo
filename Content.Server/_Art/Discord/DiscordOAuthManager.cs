@@ -5,13 +5,13 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using Content.Shared._OpenSpace.CCVar;
-using Content.Shared._OpenSpace.Discord;
+using Content.Shared._Art.CCVar;
+using Content.Shared._Art.Discord;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 
-namespace Content.Server._OpenSpace;
+namespace Content.Server._Art;
 
 public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
 {
@@ -23,7 +23,7 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
 
     public void Initialize()
     {
-        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _cfg.GetCVar(OpenSpaceCCvar.AuthApiToken));
+        _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _cfg.GetCVar(SS14ArtCCvar.AuthApiToken));
         _netMgr.RegisterNetMessage<DiscordLinkRequestMessage>(OnLinkRequested);
         _netMgr.RegisterNetMessage<DiscordLinkResponseMessage>();
         _netMgr.RegisterNetMessage<DiscordRolesUpdateMessage>();
@@ -47,10 +47,10 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
 
     public async Task<HashSet<ulong>> GetRoles(ICommonSession session)
     {
-        if (_cfg.GetCVar(OpenSpaceCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
+        if (_cfg.GetCVar(SS14ArtCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
             return [];
         var url = new Uri(apiUrl);
-        var guild = _cfg.GetCVar(OpenSpaceCCvar.AuthTargetGuild);
+        var guild = _cfg.GetCVar(SS14ArtCCvar.AuthTargetGuild);
         var request = await _httpClient.GetAsync(new Uri(url, $"api/roles?method=uid&id={session.UserId.ToString()}&guildId={guild}").ToString());
 
         if (!request.IsSuccessStatusCode)
@@ -76,7 +76,7 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
 
     public async Task<bool> AlreadyRegistered(string uuid)
     {
-        if (_cfg.GetCVar(OpenSpaceCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
+        if (_cfg.GetCVar(SS14ArtCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
             return false;
 
         var url = new Uri(apiUrl);
@@ -93,7 +93,7 @@ public sealed class DiscordOAuthManager : IDiscordOAuthManager, IDisposable
 
     public async Task<string?> GetDiscordLink(string uuid)
     {
-        if (_cfg.GetCVar(OpenSpaceCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
+        if (_cfg.GetCVar(SS14ArtCCvar.AuthApiUrl) is not { } apiUrl || string.IsNullOrEmpty(apiUrl))
             return null;
         var url = new Uri(apiUrl);
 

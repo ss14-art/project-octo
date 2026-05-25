@@ -1,4 +1,4 @@
-using Content.Client._OpenSpace;
+using Content.Client._Art;
 using Content.Client.Administration.Managers;
 using Content.Shared._NullLink;
 using Robust.Client.Player;
@@ -15,29 +15,29 @@ public sealed class PlayerRolesReqManager : SharedPlayerRolesReqManager
     public override bool IsAllRolesAvailable(EntityUid uid)
         => _player.LocalEntity == uid
         && AllRoles is not null
-        && _authManager.ContainsAny(AllRoles.Roles); // OpenSpace
+        && _authManager.ContainsAny(AllRoles.Roles); // SS14-Art
 
     public override bool IsAllRolesAvailable(ICommonSession session)
         => _player.LocalSession == session
         && AllRoles is not null
-        && _authManager.ContainsAny(AllRoles.Roles); // OpenSpace
+        && _authManager.ContainsAny(AllRoles.Roles); // SS14-Art
 
     public override bool IsAnyRole(ICommonSession session, ulong[] roles)
         => _player.LocalSession == session
-        && _authManager.ContainsAny(roles); // OpenSpace
+        && _authManager.ContainsAny(roles); // SS14-Art
 
     public override bool IsMentor(EntityUid uid)
         => _player.LocalEntity == uid
         && _mentorReq is not null
-        && _authManager.ContainsAny(_mentorReq.Roles); // OpenSpace
+        && _authManager.ContainsAny(_mentorReq.Roles); // SS14-Art
 
     public override bool IsMentor(ICommonSession session)
         => _player.LocalSession == session
         && _mentorReq is not null
-        && _authManager.ContainsAny(_mentorReq.Roles); // OpenSpace
+        && _authManager.ContainsAny(_mentorReq.Roles); // SS14-Art
 
     public override bool IsPeacefulBypass(EntityUid uid)
         => _player.LocalEntity == uid
         && _peacefulBypass is not null
-        && _authManager.ContainsAny(_peacefulBypass.Roles); // OpenSpace
+        && _authManager.ContainsAny(_peacefulBypass.Roles); // SS14-Art
 }

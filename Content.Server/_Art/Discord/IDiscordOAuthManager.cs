@@ -2,7 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 using Robust.Shared.Player;
 
-namespace Content.Server._OpenSpace;
+namespace Content.Server._Art;
 
 public interface IDiscordOAuthManager
 {
