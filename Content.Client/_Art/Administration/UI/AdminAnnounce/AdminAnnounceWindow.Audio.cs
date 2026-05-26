@@ -1,4 +1,3 @@
-// This file is completely ss14-art-edit
 using Content.Shared.Administration;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;
