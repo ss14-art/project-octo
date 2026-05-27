@@ -1,6 +1,7 @@
 using Content.Shared.Alert;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom; // ss14-art-edit
 
 namespace Content.Shared.Movement.Pulling.Components;
 
@@ -23,7 +24,12 @@ public sealed partial class PullableComponent : Component
     [AutoNetworkedField, DataField]
     public string? PullJointId;
 
-    public bool BeingPulled => Puller != null;
+    // ss14-art-edit start
+    [AutoNetworkedField, DataField]
+    public GrabStage PullerGrabStage = GrabStage.None;
+
+    public bool BeingPulled => Puller != null || PullerGrabStage != GrabStage.None;
+    // ss14-art-edit end
 
     /// <summary>
     /// If the physics component has FixedRotation should we keep it upon being pulled
@@ -41,6 +47,11 @@ public sealed partial class PullableComponent : Component
 
     [DataField]
     public ProtoId<AlertPrototype> PulledAlert = "Pulled";
+
+    // ss14-art-edit start
+    [AutoNetworkedField, DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    public TimeSpan NextBreakAttempt;
+    // ss14-art-edit end
 
     #region Starlight
 

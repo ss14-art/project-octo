@@ -411,17 +411,45 @@
 
 - type: alert
   id: Pulled
-  icons: [ /Textures/Interface/Alerts/Pull/pulled.png ]
+  # ss14-art-edit start
+  icons:
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: pulled
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: grabbed-soft
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: grabbed-hard
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: grabbed-choke
+  # ss14-art-edit end
   clickEvent: !type:StopBeingPulledAlertEvent
   name: alerts-pulled-name
   description: alerts-pulled-desc
+  # ss14-art-edit start
+  minSeverity: 0
+  maxSeverity: 3
+  # ss14-art-edit end
 
 - type: alert
   id: Pulling
-  icons: [ /Textures/Interface/Alerts/Pull/pulling.png ]
+  # # ss14-art-edit start
+  icons:
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: pulling
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: grab-soft
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: grab-hard
+  - sprite: /Textures/_Art/Interface/Alerts/pull.rsi
+    state: grab-choke
+  # # ss14-art-edit end
   clickEvent: !type:StopPullingAlertEvent
   name: alerts-pulling-name
   description: alerts-pulling-desc
+  # ss14-art-edit start
+  minSeverity: 0
+  maxSeverity: 3
+  # ss14-art-edit end
 
 - type: alert
   id: Bleed
